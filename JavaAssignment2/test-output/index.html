@@ -1,0 +1,3043 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\YKAREDDY\AppData\Local\Temp\testng-eclipse-1904343710\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Basic3" class="method navigator-link" hash-for-method="AddAndDelete">AddAndDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Basic3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddAndDelete">
+                  </a> <!-- AddAndDelete -->
+                  <span class="method-name">AddAndDelete</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+XML path status doesn&apos;t match.
+Expected: OK
+  Actual: nullnullnullnullnullnullnullnull
+			//Create a dynamic element to allow sending of the document mode of IE.
+			//This way we can notify PHP that it can display modern content instead of classic, despite the browser&apos;s reporting of being IE7.
+			var headID = document.getElementsByTagName(&quot;head&quot;)[0];         
+			var cssNode = document.createElement(&apos;link&apos;);
+			cssNode.type = &apos;text/css&apos;;
+			cssNode.rel = &apos;stylesheet&apos;;
+			cssNode.href = &quot;/UserCheck/css/UserCheckCSS&quot; + (document.documentMode !== undefined ? &quot;?documentMode=&quot; + document.documentMode : &quot;&quot;);
+			headID.appendChild(cssNode);
+		
+			
+/*
+========================================================================================================================
+PORTAL IS - ESSENTIALS INCLUSION - START
+________________________________________________________________________________________________________________________
+*/
+// Set global PORTAL_IS namespace.
+window.PORTAL_IS = {};
+
+// Set namespace.
+PORTAL_IS.CONF = {};
+
+PORTAL_IS.CONF.AJAX_REQ_TIMEOUT = 15000;
+
+// These properties describes the external references of the portal.
+PORTAL_IS.CONF.MULTI_PORTALS = {};
+PORTAL_IS.CONF.MULTI_PORTALS.EXTERNAL_PATH 		= &quot;&quot;;
+PORTAL_IS.CONF.MULTI_PORTALS.EXTERNAL_PORT		= 443;
+PORTAL_IS.CONF.MULTI_PORTALS.EXTERNAL_HOST		= &quot;192.168.0.0&quot;;
+PORTAL_IS.CONF.MULTI_PORTALS.EXTERNAL_SCHEME	= &quot;https&quot;;
+PORTAL_IS.CONF.MULTI_PORTALS.XSRF_TOKEN			= &quot;&quot;;
+
+// The current web application name.
+PORTAL_IS.CONF.WEBAPP_NAME = &quot;UserCheck&quot;;
+
+// Debug configurations
+PORTAL_IS.CONF.MAX_STACK_SIZE = 1000;
+PORTAL_IS.CONF.QUIET_MODE		= &quot;on&quot;.toLowerCase() == &quot;on&quot;;
+PORTAL_IS.CONF.DEBUG_LEVEL 	= 0;
+
+
+// Set namespace.
+window.PORTAL_IS.L10N = {}
+
+// Localization object.
+//=============================================================================================
+function __L10N()
+{
+	this.strings = new Array();
+	this.browserLangs = new Array();
+
+	this.init = function()
+	{
+		var obj = {&quot;UC_TITLE&quot;:&quot;Check Point UserCheck&quot;,&quot;UC_TITLE_MOBILE_DLP&quot;:&quot;Check Point UserCheck Mobile DLP&quot;,&quot;BUTTON.OK&quot;:&quot;OK&quot;,&quot;BUTTON.CANCEL&quot;:&quot;Cancel&quot;,&quot;BUTTON.SEND&quot;:&quot;Send&quot;,&quot;BUTTON.DISCARD&quot;:&quot;Discard&quot;,&quot;BUTTON.APPROVE&quot;:&quot;Approve&quot;,&quot;BUTTON.CONFIRM&quot;:&quot;Confirm&quot;,&quot;BUTTON.CLOSE&quot;:&quot;Close&quot;,&quot;WRONG_ID&quot;:&quot;This notification page has expired. You can safely close the page. &quot;,&quot;TIMEOUT&quot;:&quot;This notification page has expired. You can safely close the page. &quot;,&quot;RETRY&quot;:&quot;Reload the original page.&quot;,&quot;REPORT_SUCCESS&quot;:&quot;Report was sent successfully.&quot;,&quot;REPORT_ERROR&quot;:&quot;An error occured while sending the report.&quot;,&quot;REQUIRED_FIELDS&quot;:&quot;Required fields&quot;,&quot;ENTER_TEXT&quot;:&quot;Enter text&quot;,&quot;TEXT_TOO_LONG&quot;:&quot;Your text is too long!&quot;,&quot;RETURN_TO_SITE&quot;:&quot;Return to site&quot;,&quot;UC.BLOCKED_IFRAME&quot;:&quot;Learn more...&quot;,&quot;UC.INFO_IFRAME&quot;:&quot;Click to resolve...&quot;,&quot;PLEASE_WAIT&quot;:&quot;Please wait . . .&quot;,&quot;NO_SCRIPT&quot;:&quot;This portal requires a browser which supports JavaScript.&lt;br&gt;Please make sure that you are using an updated browser and that JavaScript is enabled.&quot;,&quot;MSGBOX_TITLE_CONFIRMATION&quot;:&quot;Confirmation&quot;,&quot;MSGBOX_TITLE_JUSTIFICATION&quot;:&quot;Justification&quot;,&quot;MSGBOX_TITLE_APPROVER&quot;:&quot;Approver&quot;,&quot;MSGBOX_TITLE_WARNING&quot;:&quot;Warning&quot;,&quot;MSGBOX_TITLE_ATTENTION&quot;:&quot;Attention&quot;,&quot;MSGBOX_TITLE_ERROR&quot;:&quot;Error&quot;,&quot;MSGBOX_TITLE_REPORT_ERROR&quot;:&quot;Report an error&quot;,&quot;MSGBOX_TITLE_EXTEND_EXPIRATION&quot;:&quot;Extend expiration date&quot;,&quot;DEFAULT_GENERIC_CLIENT_ERROR&quot;:&quot;An unexpected error has occurred.\nYou may still be able to continue working normally.\nPlease retry accessing the web page in a short while.\n\n&quot;,&quot;DEFAULT_GENERIC_TIMEOUT_CLIENT_ERROR&quot;:&quot;You may not access this page, or this page has expired.\nPlease sign in.&quot;,&quot;LOG_REFERENCE_ID&quot;:&quot;Log reference id: &quot;,&quot;ERROR.LINK.SEND_ERROR_REPORT&quot;:&quot;Send error report&quot;,&quot;ERROR.LINK.IM_HAVING_PROBLEMS&quot;:&quot;I am having problems with this Portal.&quot;,&quot;CHECKPOINT_COPY_RIGHTS&quot;:&quot;&amp;copy;2018 Check Point Software Technologies Ltd.&quot;,&quot;EMAIL_SENT&quot;:&quot;The email has been sent&quot;,&quot;EMAIL_DISCARDED&quot;:&quot;The email has been discarded&quot;,&quot;EMAIL_ALREADY_SENT&quot;:&quot;The email has already been sent&quot;,&quot;EMAIL_ALREADY_DISCARDED&quot;:&quot;The email has already been discarded&quot;,&quot;UNKOWN_INCIDENT_STATUS&quot;:&quot;An unexpected error has occurred.\nThe incident status is unknown&quot;,&quot;REVIEW_TEXT&quot;:&quot;Review issue in portal&quot;,&quot;MAIL.ITEM.ATTACHMENTS&quot;:&quot;Attachments&quot;,&quot;HTTP_LEARNING&quot;:&quot;To complete the operation, &lt;b&gt;please return to site and resend the information&lt;\/b&gt;, thanks.&quot;,&quot;HTTP_LEARNING_ERROR_MSG&quot;:&quot;Sending the message cannot be approved,&lt;\/br&gt; please contact your system administrator.&quot;,&quot;HTTP_LEARNING_ERROR_TOOLTIP&quot;:&quot;Sending the message cannot be approved, please contact your system administrator.&quot;,&quot;IE6_MESSAGE1&quot;:&quot;Please update your browser in order to use UserCheck&quot;,&quot;IE6_MESSAGE2&quot;:&quot;This browser is not supported. &lt;br\/&gt;This site requires Internet Explorer 8+, Chrome, Firefox or Opera.&quot;,&quot;CP_SCRUB_WAIT_MESSAGE&quot;:&quot;Please wait while loading files...&quot;,&quot;CP_SCRUB_RESULT_SUCCESS&quot;:&quot;Threat Prevention didn&apos;t detect cleanable parts&quot;,&quot;CP_SCRUB_RESULT_FAILURE&quot;:&quot;File structure may be corrupted&quot;,&quot;CP_SCRUB_RESULT_TIMEOUT&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_UNSUPPORTED_FILE&quot;:&quot;File contents do not match the extension&quot;,&quot;CP_SCRUB_RESULT_NOT_SCRUBBED&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_INTERNAL_ERROR&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_NO_VALID_CONTRACT&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_SKIPPED_BY_TE_CONFIDENCE&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_OUT_OF_MEMORY&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_DOCSEC_FILE&quot;:&quot;File encrypted using Checkpoint&apos;s Document Security&quot;,&quot;CP_SCRUB_RESULT_ENCRYPTED_FILE&quot;:&quot;contains encrypted data&quot;,&quot;CP_SCRUB_RESULT_SKIPPED_BY_SCRIPT&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_DISK_LIMIT_REACHED&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_BYPASS_SCRUB&quot;:&quot;&quot;,&quot;CP_SCRUB_RESULT_WATERMARK_FAILED&quot;:&quot;&quot;,&quot;CP_SCRUB_INVALID_EMAIL&quot;:&quot;Invalid Email Address&quot;,&quot;CP_SCRUB_SEND_MAIL_STRING&quot;:&quot;Send the original mail to me:&quot;,&quot;CP_SCRUB_SEND_EMAIL_EXAMPLE&quot;:&quot;john@hackme.com&quot;,&quot;CP_SCRUB_SEND_EMAIL_SUCCESS&quot;:&quot;Mail was sent successfully, please check your inbox&quot;,&quot;CP_SCRUB_SEND_EMAIL_ERROR&quot;:&quot;Could not send mail to the recipient, please verify your address&quot;,&quot;CTNT_EMAIL_CONFIRM&quot;:&quot;Thank you for your input. To complete the operation, &lt;b&gt;please resend the email&lt;\/b&gt;.\n &lt;br\/&gt;It is safe to close this page.&quot;,&quot;CP_SCRUB_FILE_STATUS_WAITING_FOR_TE_DESC&quot;:&quot;scanning...&quot;,&quot;CP_SCRUB_FILE_STATUS_WAITING_FOR_TE&quot;:&quot;Please wait while file is being scanned&quot;,&quot;CP_SCRUB_FILE_STATUS_BLOCKED_BY_TE_DESC&quot;:&quot;blocked - file is malicious&quot;,&quot;CP_SCRUB_FILE_STATUS_BLOCKED_BY_TE&quot;:&quot;File is malicious - blocked for download&quot;,&quot;CP_SCRUB_FILE_STATUS_BLOCKED_BY_POLICY_DESC&quot;:&quot;blocked according to company policy&quot;,&quot;CP_SCRUB_FILE_STATUS_BLOCKED_BY_POLICY&quot;:&quot;File is blocked for download according to company policy&quot;};
+		
+		for(val in obj)
+			this.strings[val] = obj[val];
+			
+		obj = [&quot;en&quot;];
+		
+		for(val in obj)
+		{
+			this.browserLangs[val] = obj[val].split(&apos;;&apos;)[0];
+		}
+	}
+
+	this.getStr = function(stringId)
+	{
+		return this.strings[stringId];
+	}
+	
+	this.selectLanguage = function(languageArray)
+	{
+		for(lang in this.browserLangs)
+		{
+			if(languageArray[this.browserLangs[lang]] === true)
+				return this.browserLangs[lang];
+				
+			if(languageArray[this.browserLangs[lang].substring(0, 2)] === true)
+				return this.browserLangs[lang].substring(0, 2);
+		}
+		
+		//If nothing succeeded, return the default.
+		return &quot;en&quot;;
+	}
+	
+	this.reloadLanguageTo = function(lang, fallbackLang, callback)
+	{
+		var requestData = {};
+		
+		requestData.lang = lang;
+		requestData.fallbackLang = fallbackLang;
+
+		var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;data/GetTranslationData&quot;);
+	
+		sendAsynchronousRequest(sAbsoluteURL,
+								flattenObject(requestData),
+								this.asyncReloadLangHandler,
+								this,
+								[callback]);
+	}
+	
+	this.asyncReloadLangHandler = function(xhrStatus, xhrResponse, callback)
+	{
+		if (xhrStatus != 200)
+		{
+			DEBUG.out(&apos;Retreiving translation data failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			return;
+		}
+		
+		var obj = JSON.parse(xhrResponse);
+		this.strings = null; //Ensure removing of old values.
+		this.strings = new Array();
+		
+		for(val in obj)
+			this.strings[val] = obj[val];
+			
+		callback();
+	}
+}
+//=============================================================================================
+
+//Localization object.
+L10N_Obj = new __L10N();
+L10N_Obj.init();
+PORTAL_IS.L10N.L10N_Obj = L10N_Obj;
+
+/*
+________________________________________________________________________________________________________________________
+
+PORTAL IS - ESSENTIALS INCLUSION - END
+========================================================================================================================
+*/
+			var noJSCrypto = &quot;true&quot;;
+		nullnull
+			
+
+// Create namespace
+window.UserCheck = {};
+window.UserCheck.tools = {};
+
+// =======================================================================================
+function parseSender(value)
+{
+	return value.address;
+}
+// =======================================================================================
+
+
+// =======================================================================================
+// Render recipient list from and array.
+// String[] recipientsArr   - Array of recipients.
+// [int ellipsisLimit]      - A string beyond this length will be cut and added ellipsis. Optional, default is 0 - no ellipsis.
+// [bool useLinebreakes]    - Should a line break be added after each recipient. Optional, default is true.
+function recipientsArr2StrInTable(recipientsArr, ellipsisLimit, useLinebreakes)
+{
+    if (ellipsisLimit == undefined)
+    {
+        ellipsisLimit = 0;
+    }
+
+    if (useLinebreakes == undefined)
+    {
+        useEllipsis = true;
+    }
+
+	var recipientsList = &quot;&quot;;
+
+	for (var i=0; i&lt;recipientsArr.length; i++)
+	{
+		recipientsList += HTMLEncode(recipientsArr[i].address);
+		if (i &lt; recipientsArr.length-1)
+		{
+			recipientsList += &quot;, &quot;;
+			if (useLinebreakes)
+			{
+			    recipientsList += &quot;&lt;br&gt;&quot;;
+            }
+		}
+	}
+
+	if (ellipsisLimit &gt; 0)
+	{
+	    //recipientsList = Ext.util.Format.ellipsis(recipientsList, ellipsisLimit);
+	    recipientsList = recipientsList;
+    }
+
+	return recipientsList;
+}
+// =======================================================================================
+
+
+// =======================================================================================
+// Render recipient list from and array.
+// Sender sender            - The sender data.
+// [int ellipsisLimit]      - A string beyond this length will be cut and added ellipsis. Optional, default is 0 - no ellipsis.
+// [bool useLinebreakes]    - Should a line break be added after each recipient. Optional, default is true.
+function getSenderName(sender, ellipsisLimit)
+{
+    var output = &quot;&quot;;
+
+    if (ellipsisLimit == undefined)
+    {
+        ellipsisLimit = 0;
+    }
+
+    if (sender.name.empty())
+    {
+        output = sender.address;
+    }
+    else
+    {
+        output = sender.name;
+    }
+
+//	if (ellipsisLimit &gt; 0)
+//	{
+//	    output = Ext.util.Format.ellipsis(output, ellipsisLimit);
+//    }
+
+	 return output;
+}
+// =======================================================================================
+
+
+// =======================================================================================
+// Render recipient list from and array.
+// String sender            - The subject string.
+// [int ellipsisLimit]      - A string beyond this length will be cut and added ellipsis. Optional, default is 0 - no ellipsis.
+// [bool useLinebreakes]    - Should a line break be added after each recipient. Optional, default is true.
+function getSubject(subject, ellipsisLimit)
+{
+    var output = subject;
+
+    if (ellipsisLimit == undefined)
+    {
+        ellipsisLimit = 0;
+    }
+
+//	if (ellipsisLimit &gt; 0)
+//	{
+//	    output = Ext.util.Format.ellipsis(output, ellipsisLimit);
+//    }
+
+	 return output;
+}
+// =======================================================================================
+
+
+// =======================================================================================
+// tranform recipients array to string
+function recipientsArr2Str(recipientsArr,type) 
+{
+    var recipientsList = &quot;&quot;;
+    var address = &quot;&quot;;
+    var commaNeeded = false;
+    for (var i=0; i&lt;recipientsArr.length; i++)
+    {
+        if (type == recipientsArr[i].recipientType)
+        {
+            if (!commaNeeded)
+                commaNeeded = true;
+            else                                
+                recipientsList += &quot;, &quot;;
+                
+            address = HTMLEncode(recipientsArr[i].address);
+            if (recipientsArr[i].isExternal)
+            {
+                address = &apos;&lt;span &apos; + GetDomainColor(recipientsArr[i].address)+&apos; &gt;&apos; + address + &apos;&lt;/span&gt;&apos;
+            }  
+            recipientsList += address;
+        }
+    }
+
+    return recipientsList;
+}
+
+// =======================================================================================
+function arr2Str(arr)
+{
+    var str = &quot;&quot;;
+    var commaNeeded = false;
+    for (var i=0; i&lt;arr.length; i++)
+    {
+        if (!commaNeeded)
+        {
+            commaNeeded = true;
+        }
+        else
+        {
+            str += &quot;, &quot;;
+        }
+        str += arr[i];
+    }
+
+    return str;
+}
+
+function GetDomainColor(str)
+{
+    // var highlightColors = new Array(&quot;FFFF00&quot;,&quot;00FF00&quot;,&quot;00FFFF&quot;,&quot;FF00FF&quot;,&quot;FF0000&quot;,&quot;FFFF99&quot;,&quot;99FF99&quot;,&quot;CCFFFF&quot;,&quot;FFCCFF&quot;, &quot;FF9999&quot;)
+	var highlightColors = new Array(&quot;FFFF00&quot;,&quot;FF00FF&quot;,&quot;FF0000&quot;,&quot;FFBB00&quot;,&quot;FF9999&quot;);
+    domainName = GetDomainName(str);
+    if (domainName==null) return null;
+
+    hash=0;
+    for (i=0; i&lt;domainName.length; i++)
+    {
+        hash += domainName.charCodeAt(i);
+    }
+    hash = hash % (highlightColors.length);
+    return &apos;style=&quot;background-color: #&apos; + highlightColors[hash] + &apos;; text-decoration: underline;&quot;&apos;;
+}
+
+/*
+// =======================================================================================
+UserCheck.tools.clearContainer = function(containerId)
+{
+    DEBUG.out(&quot;Clear container: &quot;+containerId);
+	var container = Ext.getCmp(containerId);
+    if ((container) &amp;&amp; (container.items))
+    {
+        container.items.each(
+            function(item)
+            {
+             container.remove(item, true);
+            }
+        );
+    }
+}
+// =======================================================================================
+*/
+
+// Override poral_is error handler.
+//=============================================================================================
+window.genericTimeoutHandler = function(portalException)
+{
+	DEBUG.out(&quot;UserCheck::genericTimeoutHandler.&quot;);
+
+	if ((portalException == undefined) || (portalException == null))
+	{
+		portalException = new PortalException();
+	}
+	
+	// Assign action to the Ok button.
+	// The event is added in order to get the exception, if it is set, that is set as the error message OK button attribute. see showPortalErrorMessage
+	postErrorHandler = function(event)
+	{
+		// Check if redirected due to timeout.
+		if (getCookie(&quot;isRedirectedDueTimeout&quot;) == &quot;1&quot;)
+		{
+			// Delete the cookie to allow future errors.
+			setCookie(&quot;isRedirectedDueTimeout&quot;, &quot;0&quot;, 0);
+
+			// TODO: Redirect to error page.
+			return;
+		}
+
+		// Set cookie in order to prevent error loops.
+		setCookie(&quot;isRedirectedDueTimeout&quot;, &quot;1&quot;, 5*60);
+
+		genericPostErrorHandler(event);
+
+		// Reload the page.
+		document.location.href=document.location.href;
+	}
+
+	// TODO: Get message from resource bundle.
+	//var errMsg = &quot;Your session has expired or timed out.\nYou will be redirected to the login page.\n\n&quot;;
+	showPortalErrorMessage(portalException, postErrorHandler, true);
+}
+//=============================================================================================
+
+
+
+//=============================================================================================
+window.genericErrorHandler = function(portalException, callback)
+{
+	DEBUG.out(&quot;UserCheck::genericErrorHandler.&quot;);
+	if ((portalException == undefined) || (portalException == null))
+	{
+		portalException = new PortalException();
+	}
+
+	if (isNothingness(callback))
+	{
+		callback = new Callback();
+	}
+
+	// Assign action to the Ok button.
+	// The event is added in order to get the exception, if it is set, that is set as the error message OK button attribute. see showPortalErrorMessage
+	postErrorHandler = function(event)
+	{
+		genericPostErrorHandler(event);
+        callback.call();
+		// No reload of the page.
+	}
+
+	showPortalErrorMessage(portalException, postErrorHandler, true);
+	return true; // This is required for the execption to stop from being passed to the browser.
+}
+//=============================================================================================
+
+
+
+//=============================================================================================
+window.genericPostErrorHandler = function(event)
+{
+	DEBUG.out(&quot;UserCheck::genericPostErrorHandler.&quot;);
+	// Just hide the error.
+	hidePortalErrorMessage();
+}
+//=============================================================================================
+
+//=============================================================================================
+UserCheck.tools.sendErrorReport = function(userDesc, callback)
+{
+	DEBUG.out(&quot;UserCheck.tools.sendErrorReport in.&quot;);
+
+    var sAbsoluteURL = getURL(&quot;data/submitErrorReport&quot;);
+    var report = encodeURIComponent(DEBUG.compileErrorReport());
+    var userDesc = encodeURIComponent(userDesc);
+
+	var sendErrorReportCallback = new Callback();
+	sendErrorReportCallback.methodReference = UserCheck.tools.handleErrorReportResponse;
+	sendErrorReportCallback.args.push(callback);
+
+	// Send report with no error handlers.
+	PORTAL_IS.AJAX_MGR.sendAsyncReq(sAbsoluteURL, &quot;report=&quot;+report+&quot;&amp;userDesc=&quot;+userDesc, sendErrorReportCallback, null, null, &quot;Sending of error report failed.&quot;);	
+
+	// Set error flag.
+	PORTAL_IS.TOOLS.errorMsgShown = false;	
+}
+//=============================================================================================
+
+//=============================================================================================
+UserCheck.tools.handleErrorReportResponse = function(xhrStatus, xhrResponse, callback)
+{
+	DEBUG.out(&quot;UserCheck.tools.handleErrorReportResponse in.&quot;);
+
+	// Set error flag.
+	PORTAL_IS.TOOLS.errorMsgShown = false;
+
+	if (isNothingness(callback))
+	{
+		callback = new Callback();
+	}
+
+	if (xhrStatus != 200)
+	{
+		// TODO: Handle error.
+		DEBUG.out(&apos;Submitting error report failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+		callback.call();
+		showPortalMessage(&quot;Sending of error report failed.&quot;);
+		return;
+	}
+
+	callback.call();
+	
+	showPortalMessage(&quot;Error report was sent successfully.\nThank you for your support.&quot;, null, UserCheck.MESSAGE_TYPE.Confirmation);
+}
+//=============================================================================================
+
+//=============================================================================================
+UserCheck.tools.showErrorReport = function(callback)
+{
+	DEBUG.out(&quot;UserCheck.tools.showErrorReport in.&quot;);
+
+	// Create new callback with send report and store previous callback in it.
+	submitCallback = new Callback();
+	submitCallback.methodReference 	= DEBUG.sendErrorReport;
+	submitCallback.args = [callback];
+
+	// Create new callback for cancel.
+	cancelCallback = new Callback();
+	cancelCallback.methodReference 	= function()
+	{
+		// Clear error flag. 
+		PORTAL_IS.TOOLS.errorMsgShown = false;
+		callback.call();
+	};
+
+    // Hide any opened boxes.
+    PORTAL_IS.TOOLS.hideGeneralContainer();
+    PORTAL_IS.TOOLS.hideDialog();
+    hidePortalMessage();
+    hidePortalErrorMessage();
+
+ 	PORTAL_IS.TOOLS.showDialog(	&quot;Please describe the encountered problem in the text box below.&quot;,
+ 							&quot;NOTICE: The report might include personal information from your mail items.\nThe report will not include your credentials.&quot;,
+ 							&quot;I was trying to (e.g. review an email):\n\nWork flow which led to this error (e.g. access via email link):\n\nI am unable to:&quot;,
+ 							&quot;Report an error&quot;,
+ 							submitCallback, cancelCallback, null, null, null, null, true);
+
+	// Set error flag. 
+	PORTAL_IS.TOOLS.errorMsgShown = true;
+}
+//=============================================================================================
+
+
+//=============================================================================================
+
+
+//=============================================================================================
+
+DEBUG.showErrorReport = UserCheck.tools.showErrorReport;
+DEBUG.sendErrorReport = UserCheck.tools.sendErrorReport;
+
+UserCheck.tools.oTimeoutManager =
+{
+	timerID: -1,
+	startTimeoutTimer: function(duration, callback)
+	{
+		var milisecs = duration * 1000;
+        if (milisecs &gt; 2147483646)
+        {
+
+            milisecs = 2147483646;
+
+        }
+		DEBUG.out(&quot;UserCheck.tools.TimeoutManager: Starting timer for &quot; + duration + &quot; seconds.&quot;);
+		window.TimeoutManagerCallback = callback;
+		this.timerID = setTimeout(&quot;this.TimeoutManagerCallback();&quot;, milisecs);
+	},
+	stopTimeoutTimer: function()
+	{
+		clearTimeout(timerID);
+		timerID = -1;
+	}
+};
+
+UserCheck.DataObj = {};
+
+// TODO: This should be defined as an &quot;interface&quot; class and other view managers should implement it.
+
+// UC&apos;s view manager.
+window.UCViewManager = function()
+{
+	this.lastRenderedCustomContentContainers = new Array();
+	this.defaultContainer = &apos;portal_main_view&apos;;
+	this.ignoreHashChange = false;
+    this.wait = null;
+    this.requestParams = null;
+
+	// Hash to view mapping, enables us to set display another value than the actual view name.
+	//==================================================================================================================
+	this.hashViewMap = new Array();
+	//   		      Hash name									View name
+	//__________________________________________________________________________________________________________________
+	this.hashViewMap[&quot;UserAction&quot;]								=	&quot;UserAction&quot;;
+	this.hashViewMap[&quot;MainWithMenuView&quot;]					=	&quot;MainWithMenuView&quot;;
+	this.hashViewMap[&quot;Menu&quot;]								=	&quot;Menu&quot;;
+	this.hashViewMap[&quot;Logout&quot;]								=	&quot;Logout&quot;;
+	this.hashViewMap[&quot;MainView&quot;]							=	&quot;MainView&quot;;
+	this.hashViewMap[&quot;Error&quot;]								=	&quot;Error&quot;;
+
+	// Get View name from Hash name.
+	this.hash2View = function(hash)
+	{
+		var view = this.hashViewMap[hash];
+
+		if (isNothingness(view))
+		{
+			view = &quot;UserAction&quot;;
+		}
+		return view;
+	}
+
+	// Get Hash name from View name.
+	this.view2Hash = function(view)
+	{
+		var hash = &quot;UserAction&quot;;
+		for (key in this.hashViewMap)
+		{
+			if (this.hashViewMap[key] == view)
+			{
+				var hash = key;
+			}
+		}
+		return hash;
+	}
+	//==================================================================================================================
+
+    // Initialize view manager.
+	//=============================================================================================
+	this.init = function()
+	{
+		DEBUG.out(&quot;UCViewManager::init&quot;);
+
+		// Bind history change handler.
+		$(window).bind(&apos;hashchange&apos;, viewManager.handleHistoryChange);
+
+        // Check address bar&apos;s hash and set desired view if exists.
+		var desiredView = this.parseHash().view;
+		if (isNothingness(desiredView))
+		{
+			desiredView = &quot;&quot;;
+		}
+
+		DEBUG.out(&quot;UCViewManager::init, desired view: [&quot; + desiredView + &quot;]&quot;);
+		this.gotoNextView(desiredView);
+	}
+	//=============================================================================================
+
+
+
+    // Handle history changes (back/reload).
+    // Overriding default handling.
+	//=============================================================================================
+	this.handleHistoryChange = function(e, ui)
+	{	
+		// In some cases the hash is changed and no view load is required, checking if so.
+		if (!viewManager.ignoreHashChange &amp;&amp; ui != undefined)
+		{
+			// Parse view from hash.
+			var desiredView = viewManager.parseHash().view;
+			DEBUG.out(&quot;UCViewManager::handleHistoryChange, desired view:&quot; + desiredView);
+			viewManager.gotoNextView(desiredView);
+		}
+		else
+		{
+			DEBUG.out(&quot;UCViewManager::handleHistoryChange, hash changed ignored.&quot;);	
+		}
+
+		// Reset the ignore flag.
+        viewManager.ignoreHashChange = false;
+	}
+	//=============================================================================================
+
+
+	// Queries the server for next desired view and than call for rendering it.
+	// Will call upon callback when done rendering the view.
+	//=============================================================================================
+	this.gotoNextView = function(requestedView, callback)
+	{
+    	DEBUG.out(&quot;UCViewManager::gotoNextView&quot;);
+
+    	if (isNothingness(callback))
+    	{
+    	    callback = new Callback();
+		}
+
+        // Check what is the next view.
+        var sAbsoluteURL 	= PORTAL_IS.TOOLS.getURL(&quot;GetNextView&quot;);
+		var parameters 		= (isNothingness(requestedView)) ? (&quot;&quot;) : (&quot;requestedView=&quot; + encodeURIComponent(requestedView));
+
+		var gotoNextViewCallback = new Callback();
+			gotoNextViewCallback.methodReference    = this.handleGotoNextViewRequest;
+			gotoNextViewCallback.thisArgument       = this;
+			gotoNextViewCallback.args               = [callback];
+
+        PORTAL_IS.AJAX_MGR.sendAsyncReq(sAbsoluteURL, parameters, gotoNextViewCallback);
+	}
+	//=============================================================================================
+
+
+	// Handle next view query.
+	//=============================================================================================
+	this.handleGotoNextViewRequest = function(xhrStatus, xhrResponse, callback)
+	{
+		DEBUG.out(&quot;UCViewManager::handleGotoNextViewRequest&quot;);
+
+		if (isNothingness(callback))
+    	{
+    	    callback = new Callback();
+		}
+
+		if (xhrStatus != 200)
+		{
+			DEBUG.out(&apos;Retreiving next view failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			callback.call();
+			return;
+		}
+
+		var nextViewJSONObj = JSON.parse(xhrResponse);
+        var nextView = nextViewJSONObj.view;
+		DEBUG.out(&quot;UCViewManager::handleGotoNextViewRequest, next view:&quot; + nextView);
+
+		// Extract the data (request params) from hash and relay it onto next hash.
+		// As hash changing handler will be passed back to this method we set the Ignore flag to TRUE
+		// and call for the gotoView method.
+		viewManager.changeHash(nextView, viewManager.parseHash().data, true);
+
+		viewManager.gotoView(nextView, callback);
+	}
+	//=============================================================================================
+
+
+	// Get view contents (CSS, JS and HTML).
+	// Will call upon callback when done rendering the view.
+	//=============================================================================================
+	this.gotoView = function(view, callback)
+	{
+        DEBUG.out(&quot;UCViewManager::gotoView view: [&quot;+view+&quot;]&quot;);
+
+        if (callback == undefined)
+    	{
+    	    callback = new Callback();
+		}
+
+		var hash = this.parseHash().view;
+		var parameters = (hash == &quot;&quot;) ? (&quot;view=&quot;+encodeURIComponent(hash)) : ( &quot;requestedView=&quot; + encodeURIComponent(view) + &quot;&amp;view=&quot;+encodeURIComponent(hash) );
+
+		sendAsynchronousRequest(PORTAL_IS.TOOLS.getURL(&quot;viewManager/GetViewData&quot;),
+								parameters,
+								this.handleNewView,
+								this,
+								[callback]);
+	}
+	//=============================================================================================
+
+
+    // Handle new view rendering.
+	//=============================================================================================
+	this.handleNewView = function(xhrStatus, xhrResponse, callback)
+	{
+		if (callback == undefined)
+    	{
+    	    callback = new Callback();
+		}
+
+		if (xhrStatus != 200)
+		{
+			// TODO: Handle error.
+			DEBUG.out(&apos;Retreiving view failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			callback.call();
+			return;
+		}
+
+		var newViewJSONObj = JSON.parse(xhrResponse);
+        var newView = newViewJSONObj.view;
+		DEBUG.out(&quot;UCViewManager::handleNewView, Parsed from JSON - view:&quot; + newView);
+
+
+		var useDefaultContainerId   = true;
+		var requiredContainerId     = &quot;&quot;;
+		var requiredView            = &quot;&quot;;
+		var requireSecureConnection = false;
+
+		switch (newView)
+		{
+			default: // View will be rendered into main page view.
+				useDefaultContainerId   = true;
+				requiredContainerId     = this.defaultContainer;
+			break;
+		}
+
+		// Check if in https, redirect if not.
+		if ((requireSecureConnection) &amp;&amp; (location.protocol.toLowerCase() == &apos;http:&apos;))
+		{			
+			newLocation = location.href.replace(/http:/i, &quot;https:&quot;);
+			location.href = newLocation;
+			return;
+		}
+
+		var containerId = this.defaultContainer;
+		if (!useDefaultContainerId)
+		{
+			containerId = requiredContainerId;
+		}
+
+		//var container = Ext.getCmp(containerId);
+		var container = document.getElementById(containerId);
+
+        if (container != undefined)
+		{
+
+			DEBUG.out(&apos;Render new view (&apos;+newViewJSONObj.view+&apos;) into [&apos; + (useDefaultContainerId ? &quot;DefaultContainer&quot; : requiredContainerId) + &quot;].&quot;);
+
+			// Render CSS. - Not needed, all CSS loads from one blob file.
+			//evaluateCSS(newViewJSONObj.css, &quot;&quot;);
+
+			// Clear existing content.
+			container.innerHTML = &quot;&quot;;
+
+			// If the html content is not empty, render it into a new pane.
+			container.innerHTML = newViewJSONObj.html;
+
+			// Render JavaScript Content.
+			evaluateJavaScript(newViewJSONObj.javascript);
+
+		}
+		else if (requiredContainerId == this.defaultContainer)
+		{
+
+			DEBUG.out(&apos;Default view is missing and will be rendered...&apos;);
+			this.renderDefaultView();
+			this.handleNewView(xhrStatus, xhrResponse, callback);
+
+		}
+		else // The container is not present and needs to be rendered first.
+		{
+
+			DEBUG.out(&apos;Required view (&apos;+requiredContainerId+&apos;) is missing and needs to be rendered first.&apos;);
+
+			// Set the previous view results in a callback, it will be called when finished rendering of the login sequence page.
+			var requiredViewCallback = new Callback();
+			requiredViewCallback.methodReference    = this.handleNewView;
+			requiredViewCallback.thisArgument       = this;
+			requiredViewCallback.args               = [200, xhrResponse]; // Set fake status and response.
+
+			// Request specific view.
+			this.gotoView(requiredView, requiredViewCallback);
+
+		}
+
+		// TODO: detect loops.
+
+
+		// Done here, call the callback.
+		//this.wait.hide();
+        callback.call();
+	}
+	//=============================================================================================
+
+
+
+
+
+
+	// CUSTOM CONTENT RELATED METHODS
+	// _________________________________________________________________________________________________________________
+
+	// Get the view&apos;s custom Content.
+	//=============================================================================================
+	this.getViewCustomContent = function(view)
+	{
+		this.clearLastCustomContent();
+
+		var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;JSONViewData/GetViewCustomContent&quot;);
+		sendAsynchronousRequest(sAbsoluteURL,
+								&quot;view=&quot;+view,
+								this.renderCustomContent,
+								this,
+								[]);
+	}
+	//=============================================================================================
+
+
+	// Render the custom content.
+	//=============================================================================================
+	this.renderCustomContent = function(xhrStatus, xhrResponse, callbackObj)
+	{
+		DEBUG.out(&apos;Render custom content.&apos;);
+		callback = new Callback(callbackObj);
+
+		if (xhrStatus != 200)
+		{
+			// TODO: Handle error.
+			DEBUG.out(&apos;Retreiving custom content failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			callback.call();
+			return;
+		}
+
+		// The container Id is: &quot;CustomContent_&lt;VIEW NAME&gt;_&lt;RESOURCE KEY&gt;&quot;.
+		// For example: the &quot;ISW&quot; view and the resource key of &quot;top&quot; will be rendered into &quot;CustomContent_ISW_top&quot;.
+
+		var newCustomContentJSONObj = JSON.parse(xhrResponse);
+        var keyArr  = newCustomContentJSONObj.keyArr;
+        var view    = newCustomContentJSONObj.view
+
+		// Override view.
+		switch (view)
+		{
+			case &quot;ICS&quot;:                 // No brake, group these views.
+			case &quot;Authentication&quot;:
+			case &quot;ISW&quot;:
+			case &quot;MultiChallenge&quot;:
+			case &quot;IswEntry&quot;:
+				var usedView = &quot;LoginSequencePage&quot;;
+			break;
+
+			default:
+				var usedView = view;
+			break;
+		}
+
+        // Iterate on each of the custom content object.
+        var customContent, containerId, key;
+        //for (var key in keyMap)
+        for (var i=0; i&lt;keyArr.length; i++)
+		{
+			key = keyArr[i][0];
+			customContent = keyArr[i][1];
+			containerId = &quot;CustomContent_&quot;+usedView+&quot;_&quot;+key;
+			DEBUG.out(&apos;Render custom content: usedView:[&apos;+usedView+&quot;] into:[&quot;+containerId+&quot;]&quot;);
+            this.evaluateCustomContent(customContent, containerId);
+            this.lastRenderedCustomContentContainers.push(containerId);
+		}
+
+		// Call the callback.
+		callback.call();
+	}
+
+    // Encapsulate conditional rendering of the custom content.
+	this.evaluateCustomContent = function(customContent, containerId)
+	{
+		destinationRef = document.getElementById(containerId);
+		if ( (destinationRef != null) &amp;&amp; (destinationRef != undefined) )
+		{
+			evaluateHTMLContent(customContent, destinationRef);
+		}
+	}
+	//=============================================================================================
+
+
+	// Clear last rendered containers.
+	//=============================================================================================
+	this.clearLastCustomContent = function()
+	{
+		for (var containerIndex in this.lastRenderedCustomContentContainers)
+		{
+			this.evaluateCustomContent(&quot;&amp;nbsp;&quot;, this.lastRenderedCustomContentContainers[containerIndex]);
+		}
+
+		this.lastRenderedCustomContentContainers = new Array();
+	}
+    //=============================================================================================
+
+	// Render default view.
+    //=============================================================================================
+    this.renderDefaultView = function()
+    {}
+	//==================================================================================================================
+
+	//==================================================================================================================
+	this.logoutButtonHandler = function()
+    {}
+    //==================================================================================================================
+
+
+
+
+
+    // DEPRECATED METHODS
+	// _________________________________________________________________________________________________________________
+
+	// DEPRECATED, use viewManager.gotoNextView instead.
+	//==================================================================================================================
+	this.gotoNextState = function(callback)
+	{
+		this.gotoNextView(null, callback);
+		return;
+    }
+	//==================================================================================================================
+}
+
+// Extend ViewManager (Portal IS).
+UCViewManager.prototype = new ViewManager();
+window.viewManager = new UCViewManager();
+
+        Check Point UserChecknull  
+												Send error report											
+												OK											
+								 
+							
+								 
+							null
+								 
+							
+								 
+							
+										OK									
+										BUTTON.YES									
+										BUTTON.NO									
+										BUTTON.SUBMIT									
+										Cancel									
+								 
+							
+								 
+							  nullnull        null
+
+	//Continue the background image on IE6-7 graphics design.
+	if(window.browserDetails.browserType == window.BrowserType.IE &amp;&amp; window.browserDetails.browserVersion &lt;= 7 &amp;&amp; (document.documentMode === undefined || document.documentMode &lt;= 7))
+	{
+		var footer_td = document.getElementById(&apos;usercheck_footer_td&apos;);
+		footer_td.setAttribute(&quot;className&quot;, footer_td.getAttribute(&quot;className&quot;) + &quot; usercheck_main_background_class&quot;);
+	}
+	
+		UserCheck.DataObj.IID = &quot;EF889A7C-47A0-2115-B0FE-CA97E05C8013&quot;;
+	
+	UserCheck.DataObj.frame = 0;
+	
+
+	/*this is a common object for PortalMain and PortalMainDlp. functions here should be empty */
+window.UserActionCommon = function()
+{
+	this.DlpHttpLearning = function(adminMessage,HttpLearningEnabled)
+	{
+
+	}
+	this.DlpHideCancelBtn = function(action)
+	{
+	
+	}
+}
+
+window.oUserActionCommon = new window.UserActionCommon();
+
+
+var g_userID = &quot;&quot;;
+var g_refreshFiles = false;
+var g_BlockSendMail = false;
+
+//Toggles the button&apos;s state from enabled to disabled and vice versa.
+setButtonMode = function(buttonState, buttonID)
+{
+     var button = document.getElementById(buttonID);
+    if(button == null)
+        return;
+
+     var correctClass = window.oUserAction.getCorrectClass();
+     if(buttonState)
+                {
+                 //Enable the button.
+                 button.setAttribute(correctClass, &quot;button&quot;);
+                 button.onclick = function(){ javascript:oUserAction.submitOK(); };
+                 button.style.cursor = &quot;pointer&quot;;
+                }
+                else
+                {
+                  //Disable the button.
+                  button.setAttribute(correctClass, &quot;button buttonDisabled&quot;);
+                  button.onclick = null;
+                  button.style.cursor = &quot;default&quot;;
+                }
+}
+
+window.UserAction = function()
+{
+	this.incidentObject = {};
+	this.textAreaText = &quot;&quot;;
+	
+	this.getCorrectClass = function()
+	{
+		var correctClass = &quot;class&quot;;
+		
+		//Choose the correct class attribute name (in IE6-7 we need &quot;className&quot; instead of &quot;class&quot;) according to IE version - but check for compatibility first!
+		if(window.browserDetails.browserType == window.BrowserType.IE &amp;&amp; window.browserDetails.browserVersion &lt;= 7 &amp;&amp; document.documentMode === undefined)
+		{
+			correctClass = &quot;className&quot;;
+		}
+		
+		return correctClass;
+	}
+
+	// Initialize.
+	//=============================================================================================
+	this.init = function(cancelPage)
+	{
+		if(window.browserDetails.browserType == window.BrowserType.IE &amp;&amp; window.browserDetails.browserVersion &lt;= 7 &amp;&amp; document.documentMode === undefined)
+		{
+			document.getElementById(&apos;usercheck_main_div&apos;).innerHTML = &quot;&lt;h3&gt;&quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;IE6_MESSAGE1&quot;) + &quot;&lt;/h3&gt;&lt;p&gt;&quot;+ PORTAL_IS.L10N.L10N_Obj.getStr(&quot;IE6_MESSAGE2&quot;) + &quot;&lt;/p&gt;&quot;;
+			return;
+		}
+		if (typeof cancelPage == &apos;undefined&apos;)
+		{
+			cancelPage = false;
+		}
+		var requestData = 	{
+			                	IID: &quot;-1&quot;,
+								UserID: &quot;&quot;,
+								IsThinPortal: false,
+								UserLang: &quot;&quot;,
+								GetCancelPage: cancelPage
+							};
+		
+		requestData.IID = UserCheck.DataObj.IID;
+		
+		var cookie = getCookie(&apos;UserCheck_UserID&apos;);
+		requestData.UserID = cookie != null ? cookie : &quot;&quot;;
+		
+		requestData.IsThinPortal = window.isThinPortal === true ? true : false;
+		
+		var selectedLanguage = getCookie(&apos;UserCheck_Selected_Language&apos;);
+		if(selectedLanguage == null)
+		{
+			selectedLanguage = &quot;&quot;;
+		}
+		requestData.UserLang = selectedLanguage;
+		
+		var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;data/GetUserCheckIncidentData&quot;);
+		
+		if (window.isThinPortal === true)
+		{
+			//Create a custom timeout handler for the thin portal.
+			PORTAL_IS.AJAX_MGR.customTimeoutHandler = function()
+			{
+				window.location = &quot;about:blank&quot;;
+			}
+		}
+		
+		sendAsynchronousRequest(sAbsoluteURL,
+								flattenObject(requestData),
+								this.handleUserCheckIncidentData,
+								this,
+								[new Callback()]);
+	}
+	
+	//Changes the button CSS class (support for IE6-8). buttonCLS is for additional classes to be added to the button.
+	this.setButtonState = function(state, buttonID, buttonCLS)
+	{
+		if (!buttonID)
+		{
+			buttonID = &apos;UserCheck_OK_Button&apos;;
+			buttonCLS = &apos;&apos;;
+		}
+		
+		var correctClass = window.oUserAction.getCorrectClass();
+	
+		var button = document.getElementById(buttonID);
+		
+		if(button.getAttribute(correctClass).indexOf(&quot;Disabled&quot;) == -1)
+		{
+			//The button is not disabled.			
+			button.setAttribute(correctClass, &quot;button button&quot; + state + &quot; &quot; + buttonCLS);
+		}
+	}
+
+    //Changes the button CSS class (support for IE6-8). buttonCLS is for additional classes to be added to the button.
+	this.setSendButtonState = function(state, buttonID, buttonCLS)
+	{
+		if (!buttonID)
+		{
+			buttonID = &apos;UserCheck_OK_Button&apos;;
+			buttonCLS = &apos;&apos;;
+		}
+        
+		var correctClass = window.oUserAction.getCorrectClass();
+	
+		var button = document.getElementById(buttonID);
+        
+		if(button.getAttribute(correctClass).indexOf(&quot;Disabled&quot;) == -1)
+		{
+			//The button is not disabled.			
+			button.setAttribute(correctClass, buttonCLS);
+		}
+	}
+	
+	this.handleUserCheckIncidentData = function(xhrStatus, xhrResponse, callback)
+	{
+		DEBUG.out(&quot;UserAction::handleUserCheckIncidentData&quot;);
+
+		if (callback == undefined)
+    	{
+    	    callback = new Callback();
+		}
+		
+		if (xhrStatus != 200)
+		{
+			DEBUG.out(&apos;Retreiving UserCheck Incident Data failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			callback.call();
+			return;
+		}
+		
+		this.incidentObject = JSON.parse(xhrResponse);
+		var Languages = this.incidentObject.Languages;
+		var UserCheckLogoID = this.incidentObject.UserCheckLogoID;
+		var RedirectToAddr = this.incidentObject.RedirectToAddr;
+		var AutoRedirect = this.incidentObject.AutoRedirect;
+		var ExternalSystemURL = this.incidentObject.ExternalSystemURL;
+		var Action = this.incidentObject.Action;
+		var Variables = this.incidentObject.Variables;
+		
+		this.incidentObject.HasBeenCancelled = false;
+		
+		setCookie(&apos;UserCheck_UserID&apos;, this.incidentObject.UserID, 31556926);
+
+		if (Variables[&apos;product&apos;] != &apos;Threat Extraction&apos;)
+		{
+		  if(AutoRedirect == true &amp;&amp; RedirectToAddr != &quot;&quot;)
+		  {
+			  if (window.isThinPortal === undefined)
+			  {
+			  //We have an address and auto redirect is true so redirect to that URL.
+				  // if (RedirectToAddr.indexOf(&apos;http://&apos;) != 0)
+				  if ((RedirectToAddr.indexOf(&apos;http://&apos;) != 0)  &amp;&amp;(RedirectToAddr.indexOf(&apos;https://&apos;) != 0))
+					  RedirectToAddr = &quot;http://&quot; + RedirectToAddr;
+  
+			  window.location = RedirectToAddr;
+			  }
+			  else
+				  window.location = &quot;about:blank&quot;; //No reason to redirect in the Thin Portal
+		  }
+		}
+		else
+		{
+			if (Action == &quot;SCRUB-SUCCESS&quot;)
+			{
+				// in scrub success page, if not mobile or thin, give more space for the list of original files names and info
+				if(window.browserDetails.isMobile() === false &amp;&amp; window.isThinPortal === undefined)
+				{
+					var content_table = document.getElementById(&quot;usercheck_content_table&quot;);
+					if (content_table != null)
+					{
+						content_table.style.tableLayout=&quot;auto&quot;;
+					}
+					
+					var message_div = document.getElementById(&quot;usercheck_main_div&quot;);
+					if (message_div != null)
+					{
+						message_div.style.minWidth=&quot;auto&quot;;
+						message_div.style.maxWidth=&quot;1000px&quot;;
+						message_div.style.wordWrap=&quot;normal&quot;;
+						message_div.style.overflow=&quot;auto&quot;;
+					}
+				}
+				
+				var requestData = 	{
+							IID: &quot;-1&quot;
+						};
+				requestData.IID = UserCheck.DataObj.IID;
+				var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;data/GetScrubFiles&quot;);
+				sendAsynchronousRequest(sAbsoluteURL,
+						flattenObject(requestData),
+						this.handleScrubbingFiles,
+						this,
+						[new Callback()]);
+			}
+		}
+			
+		if(ExternalSystemURL != &quot;&quot;)
+			//We have an external system address so redirect to that URL.
+			// window.location = ExternalSystemURL + (this.incidentObject.ForwardParams == true ? &quot;?IncidentID=&quot; + UserCheck.DataObj.IID + &quot;&amp;UserID=&quot; + this.incidentObject.UserID : &quot;&quot;);
+			if (this.incidentObject.ForwardParams == true)
+			{
+							window.location = ExternalSystemURL + &quot;?IncidentID=&quot; + UserCheck.DataObj.IID + &quot;&amp;UserID=&quot; + this.incidentObject.UserID;
+			}
+			else
+			{
+							window.location = ExternalSystemURL;
+			}
+
+
+			
+		this.prepareLanguageSelection();
+			
+		if(window.self !== window.top)
+		{
+			//We are inside a frame. Display small version of the portal and give link to a full version of the portal in new tab/window.
+			
+			var url = &apos;&lt;a href=&quot;&apos; + window.location + &quot;&amp;frame=1&quot; + &apos;&quot; target=&quot;_blank&quot;&gt;&apos;;
+			if (Action == &quot;SCRUB-SUCCESS&quot;)
+			{
+				Action = &quot;INFORM&quot;;
+			}
+			url += draw_img_tag(getURL(&quot;img/&quot; + Action.toLowerCase() + &quot;.png&quot;)) + &apos;&amp;nbsp;&amp;nbsp;&apos;;
+			url += Action == &apos;BLOCK&apos; ? PORTAL_IS.L10N.L10N_Obj.getStr(&quot;UC.BLOCKED_IFRAME&quot;) : PORTAL_IS.L10N.L10N_Obj.getStr(&quot;UC.INFO_IFRAME&quot;);
+			url += &apos;&lt;/a&gt;&apos;;
+		
+			document.body.innerHTML = url;
+			document.body.style.backgroundImage = &apos;none&apos;;
+			document.body.style.textAlign = &apos;center&apos;;
+			document.body.style.verticalAlign = &apos;text-bottom&apos;;	
+		}
+		
+		//Decide which footer to display according to the action type (for Block and Limit we display footer without CP logo).
+		if(window.isThinPortal === true)
+		{
+			var thin_table = document.getElementById(&apos;usercheck_thin_table&apos;);
+			if(thin_table != null &amp;&amp; Action != &apos;BLOCK&apos; &amp;&amp; Action != &apos;LIMIT&apos;)
+			{
+				var correctClass = window.oUserAction.getCorrectClass();
+				
+				thin_table.setAttribute(correctClass, &quot;usercheck_main_mobile_background_class with_logo&quot;);
+			}
+		}
+		else
+		{
+		var logo_footer = document.getElementById(&apos;footer_table_logo&apos;);
+		if(logo_footer != null &amp;&amp; Action != &apos;BLOCK&apos; &amp;&amp; Action != &apos;LIMIT&apos;)
+		{
+			var correctClass = window.oUserAction.getCorrectClass();
+			
+			logo_footer.setAttribute(correctClass, &quot;usercheck_footer_table_class footer_logo&quot;);
+		}
+		}
+		
+		if(Action == &apos;BLOCK&apos;){
+			document.getElementById(&quot;usercheck_title_div&quot;).style.color = &quot;#ed5552&quot;;
+			document.getElementById(&quot;usercheck_logo_img_div&quot;).style.display = &quot;none&quot;;
+		}else{
+			document.getElementById(&quot;usercheck_title_div&quot;).style.color = &quot;#0d87cd&quot;;
+		}
+		g_userID = this.incidentObject.UserID;
+		
+		if (Action == &quot;SCRUB-SUCCESS&quot;)
+		{
+			Action = &quot;INFORM&quot;;
+		}
+		//Draw incident image according to the incident type
+		if(document.getElementById(&apos;usercheck_img_div&apos;) !== null){
+			document.getElementById(&apos;usercheck_img_div&apos;).innerHTML = draw_img_tag(getURL(&quot;img/&quot; + Action.toLowerCase() + &quot;.png&quot;));	
+		
+		}
+		
+		if(this.incidentObject.IsLogoConfigured)
+		{
+			//The page has a logo defined in the GUI - load it.
+			
+			//Desktop header.
+			var header_right_logo = document.getElementById(&apos;usercheck_header_right_logo&apos;);
+			if(header_right_logo != null)
+				if(window.browserDetails.browserType == window.BrowserType.IE &amp;&amp; window.browserDetails.browserVersion &lt;= 7)
+					header_right_logo.style.display = &quot;block&quot;;
+				else
+					header_right_logo.style.display = &quot;table-cell&quot;;
+					
+			var header_right_empty = document.getElementById(&apos;usercheck_header_right_empty&apos;);
+			if(header_right_empty != null)
+				header_right_empty.style.display = &quot;none&quot;;
+				
+			//Mobile header.
+			var mobile_header = document.getElementById(&apos;header_mobile_div&apos;);
+			if(mobile_header != null)
+			{
+				mobile_header.style.display = &quot;block&quot;;
+			}
+			
+			//Company logo.
+			var company_logo = document.getElementById(&apos;usercheck_company_logo&apos;);
+			if(company_logo != null)
+				company_logo.src = getURL(&quot;images/interactions/&quot; + UserCheckLogoID + &quot;.png&quot;);
+		}
+		else
+		{
+			 //If there is no logo defined, hide it as it will cause an error on IE
+			//additionally, according to preview design the agent should not have logo in this case too
+			var company_logo = document.getElementById(&apos;usercheck_company_logo&apos;);
+			if(company_logo != null)
+				company_logo.style.display = &quot;none&quot;;
+		}
+			
+		//Start the timeout manager. Do not start this for TeX as its timeout is huge and will fail verification in the daemon
+		if (Variables[&apos;product&apos;] != &apos;Threat Extraction&apos;)
+			UserCheck.tools.oTimeoutManager.startTimeoutTimer(this.incidentObject.Expiration - 15, this.handleTimeout);
+			
+		if (UserCheck.DataObj.GetSingleIncidentReview !== undefined &amp;&amp; UserCheck.DataObj.GetSingleIncidentReview == 1)
+		{
+			window.singleIncident = new SingleIncident();
+			singleIncident.init();
+		}			
+			
+		callback.call();
+	}
+	
+	this.submitOK = function()
+	{
+		//This function determines if it is OK to proceed with sending a response if all validation criteria are met.
+	
+		//If we are in a Block action in thin portal, just redirect to about:blank.
+		if (window.isThinPortal === true &amp;&amp; window.oUserAction.incidentObject.Action === &quot;BLOCK&quot;)
+		{
+			window.location = &quot;about:blank&quot;;
+		}
+	
+		if(document.getElementById(&apos;UserCheck_Textual_Input&apos;) != null)
+			//Verify we have the real textarea!
+			if(document.getElementById(&apos;UserCheck_Textual_Input&apos;).value !== undefined)
+				//Unfocus the text-area.
+				document.getElementById(&apos;UserCheck_Textual_Input&apos;).blur();
+	
+		if(!window.oUserAction.highlightInput())
+			//There was some user input missing - don&apos;t continue.
+			return;
+	
+		var cookie = getCookie(&apos;UserCheck_UserID&apos;);
+	
+		var requestData = {};
+		
+		requestData.IID = &quot;-1&quot;;
+		requestData.UserOption = &quot;OK&quot;;
+		
+		requestData.UserID = cookie;
+		requestData.IsReasonExist = true;
+		if(document.getElementById(&apos;UserCheck_Textual_Input&apos;) != null)
+		{
+			var reason = document.getElementById(&apos;UserCheck_Textual_Input&apos;).value;
+
+			//If the reason box is not found, there is nothing to enforce.
+			if(reason === undefined)
+			{
+				reason = &quot;&quot;;
+				requestData.IsReasonExist = false;
+			}
+			else if(window.oUserAction.incidentObject.IsReasonEnforced === true &amp;&amp; (reason.length == 0 || reason.length &gt; 400))
+				return;
+				
+			requestData.Reason = reason;
+		}
+		else
+		{
+			requestData.IsReasonExist = false;
+		}
+		
+		//Sometimes the cookie is not written correctly, so used global user.
+		if(requestData.UserID == null || requestData.UserID == &quot;&quot;)
+			requestData.UserID = g_userID;
+		
+		requestData.IID = UserCheck.DataObj.IID;
+
+		var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;data/GetUserCheckUserChoiceData&quot;);
+	
+		sendAsynchronousRequest(sAbsoluteURL,
+								flattenObject(requestData),
+								this.handleUserCheckChoiceData,
+								this,
+								[new Callback()]);
+	}
+	
+	this.submitCancel = function()
+	{
+		if(window.oUserAction.incidentObject.CancelURL !== undefined &amp;&amp; window.oUserAction.incidentObject.CancelURL !== &quot;&quot;)
+		{		
+			window.location = window.oUserAction.incidentObject.CancelURL;
+			return;
+		}
+		else
+		{
+			if (window.isThinPortal == true)
+			{
+				window.location = &quot;about:blank&quot;;
+				return;
+			}
+			this.init(true);
+		}	
+	}
+	
+	this.handleUserCheckChoiceData = function(xhrStatus, xhrResponse, callback)
+	{
+		try
+		{
+			window.external.OKButtonClickedResponseReceived(&apos;Done handling request&apos;);			
+		}
+		catch(err)
+		{
+			//do nothing, this is probably the fat client
+		}
+
+		DEBUG.out(&quot;UserAction::handleUserCheckChoiceData&quot;);
+
+		if (callback == undefined)
+    	{
+    	    callback = new Callback();
+		}
+		
+		if (xhrStatus != 200)
+		{
+			DEBUG.out(&apos;Retreiving UserCheck Incident Data failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			callback.call();
+			return;
+		}
+	
+		var newViewJSONObj = JSON.parse(xhrResponse);
+		
+		var RedirectToAddr = newViewJSONObj.RedirectToAddr;
+		if (window.oUserAction.incidentObject.Variables[&apos;product&apos;] != &apos;Threat Extraction&apos;)
+		{
+		    if(RedirectToAddr != &quot;&quot;)
+		    {
+			    var frame = &quot;0&quot;;
+			    
+			    frame = UserCheck.DataObj.frame;
+			    //handle case of Ok on an email message approval of a content awareness violation. In this case we dont want to redirect, but show a message that tells to resend
+                            if (window.oUserAction.incidentObject.Variables[&apos;violation_protocol&apos;] === &apos;Email message&apos; &amp;&amp; window.oUserAction.incidentObject.Variables[&apos;product&apos;] === &apos;apcl&apos;){
+				var usercheck_main_div = document.getElementById(&apos;usercheck_main_div&apos;);
+				if (usercheck_main_div != null)
+					usercheck_main_div.innerHTML = &quot;&lt;p&gt;&quot; +PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CTNT_EMAIL_CONFIRM&quot;)+&quot;&lt;/p&gt;&quot;;
+				var okbtnDiv = document.getElementById(&apos;usercheck_ok_div&apos;);
+				var cancelbtnDiv = document.getElementById(&apos;usercheck_cancel_div&apos;);
+				if (okbtnDiv != null &amp;&amp; cancelbtnDiv != null){
+					if (window.isThinPortal === undefined){
+						okbtnDiv.style.display = &quot;none&quot;;
+						cancelbtnDiv.style.display = &quot;none&quot;;
+					}
+					else {
+						//handle client case - need to show a cancel button so the client window can be closed
+						okbtnDiv.style.display = &quot;none&quot;;
+						cancelbtnDiv.style.marginLeft = &quot;auto&quot;;
+						cancelbtnDiv.style.marginRight = &quot;auto&quot;;
+						var span = document.getElementById(&apos;UserCheck_Cancel_Button_span&apos;);
+						if(span != null)
+                                                        span.innerHTML = PORTAL_IS.L10N.L10N_Obj.getStr(&apos;BUTTON.CLOSE&apos;);
+					}
+				}
+				return;
+			    }
+		    
+			    if(typeof frame === &quot;undefined&quot; || frame == &quot;0&quot; || frame == &quot;&quot;)
+			    {
+				    if (window.isThinPortal === undefined)
+				    {
+					    //We have an address so redirect to that URL.
+					    if ((RedirectToAddr.indexOf(&apos;http://&apos;) != 0)  &amp;&amp;(RedirectToAddr.indexOf(&apos;https://&apos;) != 0))
+						    RedirectToAddr = &quot;http://&quot; + RedirectToAddr;
+					    window.location = RedirectToAddr;
+				    }
+				    else
+					    window.location = &quot;about:blank&quot;;
+			    }
+			    else
+			    {
+				    if (window.isThinPortal === undefined)
+				    {
+				    //We have an address so redirect to that URL in the parent frame.
+					    if ((RedirectToAddr.indexOf(&apos;http://&apos;) != 0)  &amp;&amp;(RedirectToAddr.indexOf(&apos;https://&apos;) != 0))
+						    RedirectToAddr = &quot;http://&quot; + RedirectToAddr;
+    
+				    window.opener.location = RedirectToAddr;
+				    }
+				    else
+				    {
+					    window.opener.location = &quot;about:blank&quot;;
+				    }
+				    window.close();
+			    }
+		    }
+		    else
+		    {
+			    var frame = &quot;0&quot;;
+			    frame = UserCheck.DataObj.frame;
+			    if(typeof frame === &quot;undefined&quot; || frame == &quot;0&quot; || frame == &quot;&quot;)
+			    {
+				    if (window.isThinPortal == true)
+				    {
+					    window.location = &quot;about:blank&quot;;
+				    }
+			    }
+			    else
+			    {
+				    if (window.isThinPortal == true)
+				    {
+					    window.opener.location = &quot;about:blank&quot;;
+				    }
+				    window.close();
+			    }
+		    }
+	  	}
+		else
+		{
+			window.location.reload();
+		}
+	}
+	this.handleUserReportWrongCategoryData = function(xhrStatus, xhrResponse, callback)
+	{
+		
+		DEBUG.out(&quot;UserAction::handleUserLogData&quot;);
+
+		
+		
+		
+	}
+	
+	this.handleTimeout = function()
+	{
+		var requestData = 	{
+			                	IID: &quot;-1&quot;
+							};
+		
+		requestData.IID = UserCheck.DataObj.IID;
+		
+		var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;ExtendTimeout&quot;);
+		
+		sendAsynchronousRequest(sAbsoluteURL,
+								flattenObject(requestData),
+								window.oUserAction.handleTimeoutExtension,
+								this,
+								[new Callback()]);
+	}
+	
+	this.handleTimeoutExtension = function(xhrStatus, xhrResponse, callback)
+	{
+		DEBUG.out(&quot;UserAction::handleTimeoutExtension&quot;);
+
+		if (callback == undefined)
+    	{
+    	    callback = new Callback();
+		}
+		
+		if (xhrStatus != 200)
+		{
+			if (window.isThinPortal === undefined)
+			{
+				DEBUG.out(&apos;Retreiving UserCheck Timeout Extension data failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+				callback.call();
+				return;
+			}
+			else
+			{
+				window.location = &quot;about:blank&quot;;
+				return;
+			}
+		}
+		var extensionObject = JSON.parse(xhrResponse);
+		
+		if(extensionObject.ReturnCode == &quot;SUCCESS&quot;)
+		{
+			if(extensionObject.Expiration &gt; 15){
+				UserCheck.tools.oTimeoutManager.startTimeoutTimer(extensionObject.Expiration - 15, window.oUserAction.handleTimeout);
+			}
+		}
+		else
+		{
+			if(window.isThinPortal === undefined)
+			{
+			var button = document.getElementById(&apos;UserCheck_OK_Button&apos;);
+			if(button !=null)
+				button.style.display = &quot;none&quot;;
+			var select = document.getElementById(&apos;usercheck_language_selection&apos;);
+			if(select != null)
+				select.disabled = true;
+			
+			showPortalMessage(PORTAL_IS.L10N.L10N_Obj.getStr(&quot;TIMEOUT&quot;) + &quot; &lt;a href=&apos;&quot; + window.oUserAction.incidentObject.RedirectToAddr + &quot;&apos;&gt;&quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;RETRY&quot;) + &quot;&lt;/a&gt;&quot;, null, PORTAL_IS.MESSAGE_TYPE.Display, true);
+		}
+			else
+			{
+				/* If we are in thin portal, redirect to about:blank
+				   so that client can catch it and act accordingly. */
+				window.location = &quot;about:blank&quot;;
+			}
+		}
+	}
+	
+	//Prepare for language selection.
+	this.prepareLanguageSelection = function()
+	{
+		var Languages = this.incidentObject.Languages;
+		var prevSelectedLanguage = null;
+		var userSelected = false;
+		if (UserCheck.DataObj.Lang != &quot;&quot; &amp;&amp; UserCheck.DataObj.Lang !== undefined)
+		{
+			prevSelectedLanguage = UserCheck.DataObj.Lang;
+			userSelected = true;
+		}
+		else if (this.incidentObject.PreferredLang != &quot;&quot;)
+		{
+			prevSelectedLanguage = this.incidentObject.PreferredLang;
+		}
+		else
+		{
+			prevSelectedLanguage = getCookie(&apos;UserCheck_Selected_Language&apos;);
+		}
+		var count = 0;
+		
+		//If there is no cookie, get the browser locale.
+		if(prevSelectedLanguage == null)
+		{
+			var langArr = {};
+			for(var Language in Languages)
+			{
+				langArr[Languages[Language].LanguageCode] = true;
+			}
+			
+			prevSelectedLanguage = PORTAL_IS.L10N.L10N_Obj.selectLanguage(langArr);
+		}
+		
+		if(document.getElementById(&apos;usercheck_language_selection_div&apos;) != null)
+		{
+			count = 0;
+			var select = document.getElementById(&apos;usercheck_language_selection&apos;);
+			select.options.length = 0;
+			for(var Language in Languages)
+			{
+				select = document.getElementById(&apos;usercheck_language_selection&apos;);
+				select.options[select.options.length] = new Option(Languages[Language].Language, Language, false, Language === prevSelectedLanguage);
+				count++;
+			}
+			//Display language selection only if NOT in thin portal.
+			if(count &gt; 1 &amp;&amp; window.isThinPortal === undefined)
+				document.getElementById(&apos;usercheck_language_selection_div&apos;).style.display = &quot;block&quot;;
+			else
+			{
+				document.getElementById(&apos;usercheck_language_selection_div&apos;).style.display = &quot;none&quot;;
+			}
+				
+		}
+		this.handleLanguageChange(true, userSelected);
+	}
+	
+	//Handles language change.
+	this.handleLanguageChange = function(noReloadLang, userSelected)
+	{
+		var select = document.getElementById(&apos;usercheck_language_selection&apos;);
+		var selectedLanguage = select.options[select.selectedIndex].value;
+		if(noReloadLang === true)
+		{
+			//No need to load the language - if it is already loaded.
+			this.asyncLanguageChangeCallback(userSelected);
+		}
+		else
+		{
+			//Reload language strings.
+			PORTAL_IS.L10N.L10N_Obj.reloadLanguageTo(selectedLanguage, &quot;en&quot;, this.asyncLanguageChangeCallback);
+		}
+
+	}
+		
+	this.checkBoxExists = function(adminMessage)
+	{
+		if(adminMessage.indexOf(&quot;UserCheck_Confirm_Checkbox&quot;) != -1)
+			return true;
+			
+		return false;
+	}
+	
+	this.textareaExists = function(adminMessage)
+	{
+		if(adminMessage.indexOf(&quot;UserCheck_Textual_Input&quot;) != -1)
+			return true;
+			
+		return false;
+	}
+	
+	this.asyncLanguageChangeCallback = function(userSelected)
+	{
+		if (userSelected === undefined)
+		{
+			userSelected = true;
+		}
+		var select = document.getElementById(&apos;usercheck_language_selection&apos;);
+		var check = document.getElementById(&apos;UserCheck_Confirm_Checkbox&apos;);
+		
+		var selectedLanguage = &quot;Default&quot;;
+		if(select != null)
+			selectedLanguage = select.options[select.selectedIndex].value;
+		var checkBoxValue = check != null ? check.checked : false;
+		
+		//Save cookie for the selected language. Only if it is from a User Selection.
+		if (userSelected)
+		{
+			setCookie(&apos;UserCheck_Selected_Language&apos;, selectedLanguage == &quot;Default&quot; ? &quot;en&quot; : selectedLanguage, 31556926, &quot;/&quot;);
+			var cookieVal = getCookie(&apos;UserCheck_UserID&apos;);
+            
+			var handleUpdateUserDataResponse = function(xhrStatus, xhrResponse, callback){
+				var newURL = window.location.href;
+				var langLoc = newURL.indexOf(&quot;&amp;Lang=&quot;);
+				if (langLoc != -1)
+				{
+					newURL = newURL.substring(0, langLoc);
+				}
+				window.location = newURL;
+			}
+
+			sendAsynchronousRequest(getURL(&quot;UpdateUserData&quot;),
+					&quot;Language=&quot;+encodeURIComponent(selectedLanguage) + &quot;&amp;IID=&quot;+encodeURIComponent(UserCheck.DataObj.IID)+&quot;&amp;UserID=&quot;+cookieVal,
+					handleUpdateUserDataResponse,
+					this,
+					[new Callback()]);			
+		}
+		else
+		{
+
+        		//Keep this value globally for other funcs.
+        		window.oUserAction.incidentObject.SelectedLanguage = selectedLanguage;
+        	
+        		var Languages = window.oUserAction.incidentObject.Languages;
+        		var TitleText = Languages[selectedLanguage].TitleText;
+        		var AdminMessage  = Languages[selectedLanguage].AdminMessage;
+        		var CancelMessage = Languages[selectedLanguage].CancelMessage;
+        		var OKButtonMessage  = window.oUserAction.incidentObject.OKButtonMessage[selectedLanguage];
+        		var CancelButtonMessage  = window.oUserAction.incidentObject.CancelButtonMessage[selectedLanguage];
+        		var SendButtonMessage	= window.oUserAction.incidentObject.SendButtonMessage[selectedLanguage];
+        		var MiddleButtonMessage	= window.oUserAction.incidentObject.MiddleButtonMessage[selectedLanguage];
+        		var HTTPLearningEnabled = window.oUserAction.incidentObject.HTTPLearningEnabled;
+        		var PageTitle = Languages[selectedLanguage].PageTitle;
+        		
+        		document.getElementById(&apos;usercheck_title_div&apos;).innerHTML = TitleText;
+        		
+        		if(window.oUserAction.incidentObject.HasBeenCancelled === undefined || window.oUserAction.incidentObject.HasBeenCancelled === false)
+        		{
+        			if (window.oUserAction.incidentObject.IncidentStatus == 0 || window.oUserAction.incidentObject.IncidentStatus == 2 || window.oUserAction.incidentObject.IncidentStatus == 8)//ok or cancel or ok_scrubbing
+        			{
+        				document.getElementById(&apos;usercheck_main_div&apos;).innerHTML = AdminMessage;
+        			}
+        			else if (window.oUserAction.incidentObject.IncidentStatus == 3)// sent
+        			{
+        				// if http learning is enabled on action succeded show the HTTP_LEARNING message
+        				if (HTTPLearningEnabled == true &amp;&amp; window.oUserAction.incidentObject.RedirectToAddr != &quot;&quot;) 
+        				{
+        					var usercheck_main_div = document.getElementById(&apos;usercheck_main_div&apos;)
+        					if (usercheck_main_div != null)
+        						usercheck_main_div.innerHTML = &quot;&lt;p&gt;&quot; +PORTAL_IS.L10N.L10N_Obj.getStr(&quot;HTTP_LEARNING&quot;)+&quot;&lt;/p&gt;&quot;;
+        				}
+        				else // an SMTP message 
+        				{
+        					document.getElementById(&apos;usercheck_main_div&apos;).innerHTML = AdminMessage;
+        				}
+        			}
+        			else if (window.oUserAction.incidentObject.IncidentStatus == 4)//discarded
+        			{
+        				document.getElementById(&apos;usercheck_main_div&apos;).innerHTML = AdminMessage;
+        			}
+        			else if (window.oUserAction.incidentObject.IncidentStatus == 5)//already sent
+        			{
+        				if (HTTPLearningEnabled == true &amp;&amp; window.oUserAction.incidentObject.RedirectToAddr != &quot;&quot;)
+        				{
+        					//if approved http and then refreshed the page
+        					var usercheck_main_div = document.getElementById(&apos;usercheck_main_div&apos;)
+        					if (usercheck_main_div != null)
+        						usercheck_main_div.innerHTML = &quot;&lt;p&gt;&quot; +PORTAL_IS.L10N.L10N_Obj.getStr(&quot;HTTP_LEARNING&quot;)+&quot;&lt;/p&gt;&quot;;
+        				}
+        				else
+        				{
+        					document.getElementById(&apos;usercheck_main_div&apos;).innerHTML = AdminMessage;
+        					var return_to_site_div = document.getElementById(&apos;usercheck_return_to_site_div&apos;)					
+        					if (return_to_site_div != null)
+        						return_to_site_div.innerHTML = &quot;&lt;p style=&apos;color: #FF5000;font-weight: bold;&apos;&gt;&quot; +PORTAL_IS.L10N.L10N_Obj.getStr(&quot;EMAIL_ALREADY_SENT&quot;) +&quot;&lt;/p&gt;&quot;;
+        				}
+        			}
+        			else if (window.oUserAction.incidentObject.IncidentStatus == 6)//already discarded
+        			{
+        				document.getElementById(&apos;usercheck_main_div&apos;).innerHTML = AdminMessage;
+        				var return_to_site_div = document.getElementById(&apos;usercheck_return_to_site_div&apos;)					
+        				if (return_to_site_div != null)
+        					return_to_site_div.innerHTML = &quot;&lt;p style=&apos;color: #FF5000;font-weight: bold;&apos;&gt;&quot; +PORTAL_IS.L10N.L10N_Obj.getStr(&quot;EMAIL_ALREADY_DISCARDED&quot;) +&quot;&lt;/p&gt;&quot;;			
+        			}
+        			else
+        			{
+        				document.getElementById(&apos;usercheck_main_div&apos;).innerHTML = &quot;&lt;p&gt;&quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;UNKOWN_INCIDENT_STATUS&quot;) + &quot;&lt;/p&gt;&quot; + window.oUserAction.incidentObject.IncidentStatus;
+        			}
+        			
+        			
+        			var btnDiv = document.getElementById(&apos;usercheck_ok_div&apos;);
+        			if (btnDiv != null)
+        				btnDiv.innerHTML = OKButtonMessage;
+        			btnDiv = document.getElementById(&apos;usercheck_cancel_div&apos;);
+        			if (btnDiv != null){
+        				btnDiv.innerHTML = CancelButtonMessage;
+					if(window.oUserAction.incidentObject.Action == &quot;BLOCK&quot;){
+						document.getElementById(&apos;usercheck_cancel_div&apos;).style.display = &quot;none&quot;;
+						if( document.getElementById(&apos;usercheck_ok_div&apos;) != null){
+							//alert(&quot;entered first&quot;);
+							document.getElementById(&apos;usercheck_ok_div&apos;).style.marginRight = &quot;auto&quot;;
+							document.getElementById(&apos;usercheck_ok_div&apos;).style.marginLeft = &quot;auto&quot;;
+						}
+						var dlp_block_div = document.getElementById(&apos;usercheck_cancel_div&apos;);
+						if(dlp_block_div != null)
+						{
+							document.getElementById(&apos;usercheck_cancel_div&apos;).style.marginTop = &quot;0px&quot;;
+						}
+						dlp_block_div = document.getElementById(&apos;usercheck_scrollable_div&apos;); //if this is the client
+						if(dlp_block_div != null){
+							document.getElementById(&apos;usercheck_scrollable_div&apos;).style.height = &quot;250px&quot;;							
+						}
+					}
+						if(window.oUserAction.incidentObject.Action == &quot;ASK&quot;){
+							var is_client = document.getElementById(&apos;usercheck_scrollable_div&apos;); //if this is the client
+							if(is_client != null){
+								var checkBox_td = document.getElementById(&apos;UserCheck_checkbox_td&apos;);
+								if(checkBox_td != null){											//for ask client with checkbox, move padding-top to 0px
+									document.getElementById(&apos;UserCheck_checkbox_td&apos;).style.paddingTop = &quot;0px&quot;;
+								}
+							}
+						}
+					}
+        			btnDiv = document.getElementById(&apos;usercheck_send_div&apos;);
+        			// show the send button on SMTP (which is actually the send button) OR show it on inform action (which is actually OK button)
+        			if (btnDiv != null &amp;&amp; (window.oUserAction.incidentObject.RedirectToAddr == &quot;&quot; || window.oUserAction.incidentObject.Action == &quot;INFORM&quot;) )
+        			{
+        				btnDiv.innerHTML = SendButtonMessage;
+						var is_client = document.getElementById(&apos;usercheck_scrollable_div&apos;); //if this is the client
+						if(is_client != null)
+						{							
+							document.getElementById(&apos;usercheck_send_div&apos;).style.marginLeft = &quot;15%&quot;;
+							
+						}else
+						{
+							document.getElementById(&apos;usercheck_send_div&apos;).style.marginLeft = &quot;auto&quot;;
+						}
+						if(document.getElementById(&apos;usercheck_middle_div&apos;) != null)
+							{
+								document.getElementById(&apos;usercheck_middle_div&apos;).style.marginRight = &quot;auto&quot;;
+								document.getElementById(&apos;usercheck_middle_div&apos;).style.marginLeft = &quot;auto&quot;;
+							}
+        			}else if(btnDiv != null &amp;&amp; window.oUserAction.incidentObject.Action == &quot;ASK&quot;){
+						document.getElementById(&apos;usercheck_send_div&apos;).style.display = &quot;none&quot;;						
+        			}
+        			btnDiv = document.getElementById(&apos;usercheck_middle_div&apos;);
+        			if (btnDiv != null)
+        			{
+        					btnDiv.innerHTML = MiddleButtonMessage;
+        			}
+        			var goBackDiv = document.getElementById(&apos;usercheck_return_to_site_div&apos;);
+        			if (goBackDiv)
+        			{
+        				// show return to site only when its http violation AND if the action is: sent or discarded or already sent or already discarded or cancelled.
+        				if (window.oUserAction.incidentObject.RedirectToAddr != &quot;&quot; &amp;&amp; (window.oUserAction.incidentObject.IncidentStatus == 3 || window.oUserAction.incidentObject.IncidentStatus == 4 || window.oUserAction.incidentObject.IncidentStatus == 5 || window.oUserAction.incidentObject.IncidentStatus == 6 || window.oUserAction.incidentObject.IncidentStatus == 2))
+        				{
+        					goBackDiv.innerHTML = &apos;&lt;a href=&quot;&apos; + window.oUserAction.incidentObject.RedirectToAddr + &apos;&quot;&gt;&apos; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;RETURN_TO_SITE&quot;) + &apos;&lt;/a&gt;&apos;; 
+        				}
+        			}
+        		}
+        		else
+        			document.getElementById(&apos;usercheck_main_div&apos;).innerHTML = CancelMessage;
+        	
+        		var page_title = document.getElementById(&apos;usercheck_page_title&apos;);
+        		if(page_title != null)
+        			page_title.innerHTML = PageTitle;
+        		
+        		var span = document.getElementById(&apos;UserCheck_OK_Button_span&apos;);
+        		if(span != null)
+        			span.innerHTML = PORTAL_IS.L10N.L10N_Obj.getStr(&apos;BUTTON.OK&apos;);
+        		if(span != null &amp;&amp; window.oUserAction.incidentObject.Variables[&apos;product&apos;] == &apos;Threat Extraction&apos;)
+				{
+					span.innerHTML = PORTAL_IS.L10N.L10N_Obj.getStr(&apos;BUTTON.CONFIRM&apos;);
+				}				
+        		span = document.getElementById(&apos;UserCheck_Cancel_Button_span&apos;);
+        		if(span != null)
+        			span.innerHTML = PORTAL_IS.L10N.L10N_Obj.getStr(&apos;BUTTON.CANCEL&apos;);
+        			
+        		span = document.getElementById(&apos;UserCheck_Send_Button_span&apos;);
+        		if(span != null)
+        			span.innerHTML = PORTAL_IS.L10N.L10N_Obj.getStr(&apos;BUTTON.SEND&apos;);
+        		span = document.getElementById(&apos;UserCheck_Middle_Button_span&apos;);
+        		if(span != null)
+        		{
+        			if (window.oUserAction.incidentObject.RedirectToAddr == &quot;&quot;){
+        			span.innerHTML = PORTAL_IS.L10N.L10N_Obj.getStr(&apos;BUTTON.DISCARD&apos;);
+					}
+        			else{
+        				span.innerHTML = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;BUTTON.APPROVE&quot;);
+						span.style.paddingRight = &quot;27px&quot;;
+						span.style.paddingLeft = &quot;29px&quot;;
+        		}		
+        			
+        		}		
+        		var reportLink = document.getElementById(&apos;UserCheck_Wrong_Category&apos;);
+        		if(reportLink != null)
+        		{
+        			var correctClass = window.oUserAction.getCorrectClass();
+        			
+        			reportLink.setAttribute(correctClass, &quot;usercheck_url_class&quot;);
+        		
+        			reportLink.onclick = function(e) { window.oUserAction.sendReport(); }
+        		}
+        		
+        		//Clear the error message when switching language.
+        		var errorElement = document.getElementById(&apos;usercheck_error_div&apos;);
+        		if(errorElement != null)
+        			errorElement.innerHTML = &quot;&amp;nbsp;&quot;;
+        		
+        		//Keep TextArea default text to disallow it as input.
+        		var textarea_element = null;
+        		
+        		if(window.oUserAction.textareaExists(AdminMessage))
+        		{
+        			textarea_element = document.getElementById(&apos;UserCheck_Textual_Input&apos;);
+        			//If the textarea is an incorrect element or length is correct, check passes.
+        			if(textarea_element.value === undefined)
+        			{
+        				//This element is not really our text area so we don&apos;t need it.
+        				textarea_element = null;
+        			}
+        		}
+        		
+        		if(textarea_element != null)
+        		{
+        			window.oUserAction.textAreaText = textarea_element.value;
+        			
+        			var correctClass = window.oUserAction.getCorrectClass();
+        			textarea_element.setAttribute(correctClass, &quot;usercheck_message_class usercheck_textual_input_class usercheck_textual_input_class_required&quot;);
+        			
+        			textarea_element.onfocus = function() { window.oUserAction.clearRequiredInput(); };
+        		}
+        		//disable the approve button only on PortalMaindlp. on thin client approve button should always be enabled
+        		if (window.oUserAction.incidentObject.RedirectToAddr != &quot;&quot; &amp;&amp; window.isThinPortal != true)
+        		{
+        			window.oUserActionCommon.DlpHttpLearning(AdminMessage,HTTPLearningEnabled);
+        		}
+		    // hiding the cancel and middle button on inform and block on dlp only
+		    window.oUserActionCommon.DlpHideCancelBtn(window.oUserAction.incidentObject.Action);
+		}
+	}
+	
+	//Sends report for wrong category.
+	this.sendReport = function()
+	{
+		var Variables = window.oUserAction.incidentObject.Variables;
+		
+		var resource = Variables[&apos;resource&apos;] === undefined ? &quot;&quot; : Variables[&apos;resource&apos;];
+		var hmac = Variables[&apos;resource_hmac&apos;] === undefined ? &quot;&quot; : Variables[&apos;resource_hmac&apos;];
+		var version = Variables[&apos;version&apos;];
+		var product = Variables[&apos;product&apos;];
+		
+		//Get the application name. If this variable has been modified (added application icon for example), take the original.
+		var appname = Variables[&apos;application_name_orig&apos;];
+		var malwareID = Variables[&apos;application_id&apos;];
+		if(appname === undefined)
+			appname = Variables[&apos;application_name&apos;];
+			
+		var base64UrlEncode = function(input) { return $.base64Encode(input).replace(/\+/g, &apos;-&apos;).replace(/\//g, &apos;_&apos;).replace(/\=/g, &apos;&apos;) };	
+			
+		//Encode to base64 URL form spec.
+		appname = base64UrlEncode(appname);
+		resource = base64UrlEncode(resource);
+		
+		//URL of the external URL
+		var url = window.location.protocol + &quot;//cws.checkpoint.com/MISCAT/miscat/1.0?resource=&quot; + resource + &quot;&amp;hmac=&quot; + hmac + &quot;&amp;appname=&quot; + appname + &quot;&amp;version=&quot; + version + &quot;&amp;product=&quot; + product + &quot;&amp;malwareID=&quot; + malwareID;
+	
+		//Display a portal messge indicating the action was successful. On mobile devices we use the built-in message display.
+		if(window.browserDetails.isMobile())
+			alert(PORTAL_IS.L10N.L10N_Obj.getStr(&quot;REPORT_SUCCESS&quot;));
+		else
+			showPortalMessage(&apos;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&apos; + draw_img_tag_span(getURL(&quot;images/confirmation.png&quot;)) + &apos;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&apos; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;REPORT_SUCCESS&quot;) + &apos;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&apos;, null, PORTAL_IS.MESSAGE_TYPE.Confirmation, true, false);
+		
+		var img = new Image();
+		img.src = url;
+		
+		var reportLink = document.getElementById(&apos;UserCheck_Wrong_Category&apos;);
+		
+		var correctClass = window.oUserAction.getCorrectClass();
+
+		//Disable the link.
+		reportLink.setAttribute(correctClass, &quot;usercheck_url_class usercheck_disabled_url_class&quot;);
+		
+		//send log on wrong category	
+		var cookie = getCookie(&apos;UserCheck_UserID&apos;);
+	
+		var requestData = {};
+		
+		requestData.IID = &quot;-1&quot;;
+		requestData.UserOption = &quot;LOG-WRONG-CATEGORY&quot;;
+		requestData.UserID = cookie;
+		requestData.IsReasonExist = false;
+		
+		
+		//Sometimes the cookie is not written correctly, so used global user.
+		if(requestData.UserID == null || requestData.UserID == &quot;&quot;)
+			requestData.UserID = g_userID;
+		
+		requestData.IID = UserCheck.DataObj.IID;
+
+		var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;data/GetUserCheckUserChoiceData&quot;);
+	
+		sendAsynchronousRequest(sAbsoluteURL,
+								flattenObject(requestData),
+								this.handleUserReportWrongCategoryData,
+								this,
+								[new Callback()]);
+								
+		//Nothing should happen on click from now on.
+		reportLink.onclick = function() { };
+	}
+	
+	this.handleReportTimeout = function()
+	{
+		var elem = document.getElementById(&apos;testID&apos;);
+		document.getElementsByTagName(&apos;head&apos;)[0].removeChild(elem);
+	}
+
+	//Verifies the input of the user, including checkbox and textarea.
+	this.highlightInput = function()
+	{
+		var checkbox_element = null;
+		var textarea_element = null;
+		var checkbox_ready = false;
+		var textarea_ready = false;
+		var text_too_long = false;
+		
+		var AdminMessage = window.oUserAction.incidentObject.Languages[window.oUserAction.incidentObject.SelectedLanguage].AdminMessage;
+	
+		//If the checkbox exists (and it is a correct element), its value will determine the button status.
+		if(window.oUserAction.incidentObject.IsCheckBoxEnforced == true &amp;&amp; window.oUserAction.checkBoxExists(AdminMessage) == true &amp;&amp; document.getElementById(&apos;UserCheck_Confirm_Checkbox&apos;).checked !== undefined)
+		{
+			checkbox_element = document.getElementById(&apos;UserCheck_Confirm_Checkbox&apos;);
+			checkbox_ready = checkbox_element.checked;
+		}
+		else
+			checkbox_ready = true;
+			
+		//If the reason textbox exists and is enforced, its value will determine the button status.
+		if(window.oUserAction.incidentObject.IsReasonEnforced === true &amp;&amp; window.oUserAction.textareaExists(AdminMessage))
+		{
+			textarea_element = document.getElementById(&apos;UserCheck_Textual_Input&apos;);
+	
+			//If the textarea is an incorrect element or length is correct, check passes.
+			if(textarea_element.value === undefined)
+			{
+				textarea_ready = true;
+				//This element is not really our text area so we don&apos;t need it.
+				textarea_element = null;
+			}
+			else
+			{
+				if (textarea_element.value.length &gt; 0 &amp;&amp; textarea_element.value.length &lt;= 400 &amp;&amp; textarea_element.value != PORTAL_IS.L10N.L10N_Obj.getStr(&quot;ENTER_TEXT&quot;) &amp;&amp; textarea_element.value != window.oUserAction.textAreaText)
+					textarea_ready = true;
+				else
+					textarea_ready = false;
+			}
+		}
+		else
+			textarea_ready = true;
+		if (textarea_element != null &amp;&amp; textarea_element.value.length &gt; 400)
+                        text_too_long = true;
+			
+		var all_ready = checkbox_ready === true &amp;&amp; textarea_ready === true;
+			
+		var correctClass = window.oUserAction.getCorrectClass();
+         var elememt_to_scroll = null;
+	
+		if(checkbox_element != null)
+		{
+
+			checkbox_element.parentNode.parentNode.parentNode.parentNode.setAttribute(correctClass, (checkbox_ready ? &quot;usercheck_red_no_highlight&quot; : &quot;usercheck_red_highlight&quot; ));
+              elememt_to_scroll = checkbox_ready ? elememt_to_scroll : checkbox_element.parentNode.parentNode.parentNode.parentNode;
+		}
+		
+		if(textarea_element != null)
+		{
+			textarea_element.setAttribute(correctClass, &quot;usercheck_message_class usercheck_textual_input_class &quot; + (textarea_ready ? &quot;usercheck_red_no_highlight&quot; : &quot;usercheck_red_highlight usercheck_textual_input_class_required&quot; ));
+			elememt_to_scroll = textarea_ready ? elememt_to_scroll : textarea_element;
+			if(!textarea_ready)
+			{
+				if(window.oUserAction.textAreaText === &quot;&quot; || textarea_element.value !== window.oUserAction.textAreaText)
+				{
+					if(window.oUserAction.textAreaText != &quot;&quot;)
+						textarea_element.value = window.oUserAction.textAreaText;
+					else
+				textarea_element.value = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;ENTER_TEXT&quot;);
+				}
+				textarea_element.onfocus = function() { window.oUserAction.clearRequiredInput(); };
+			}
+		}
+
+		if(!textarea_ready &amp;&amp; !checkbox_ready &amp;&amp; checkbox_element!=null &amp;&amp; textarea_element!=null)
+		{
+			if(checkbox_element.parentNode.parentNode.parentNode.parentNode.offsetTop &gt; textarea_element.offsetTop)
+				elememt_to_scroll = checkbox_element;
+			
+		}
+
+		if(elememt_to_scroll!=null){
+			elememt_to_scroll.scrollIntoView(false);
+			var scrollableDiv = document.getElementById(&quot;usercheck_scrollable_div&quot;);
+			if (scrollableDiv !== null)
+				scrollableDiv.scrollLeft = 0;
+		}
+        
+		var errorElement = document.getElementById(&apos;usercheck_error_div&apos;);
+		if(errorElement != null){
+	   		if(all_ready){
+                                errorElement.innerHTML = &quot;&quot;;
+                        }
+                        else if(text_too_long){
+                                errorElement.innerHTML = &quot;&lt;br/&gt;&lt;span style=&apos;color: #FF0000;&apos;&gt;* &quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;TEXT_TOO_LONG&quot;) + &quot;&lt;/span&gt;&quot;;
+                        }
+                        else {
+                                errorElement.innerHTML = all_ready ? &quot;&quot; : &quot;&lt;br/&gt;&lt;span style=&apos;color: #FF0000;&apos;&gt;* &quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;REQUIRED_FIELDS&quot;) + &quot;&lt;/span&gt;&quot;;
+                        }
+		}
+		
+		return all_ready;
+	}
+	
+	this.clearRequiredInput = function()
+	{
+		textarea_element = document.getElementById(&apos;UserCheck_Textual_Input&apos;);
+		
+		textarea_element.value = &quot;&quot;;
+		
+		var correctClass = window.oUserAction.getCorrectClass();
+		
+		if(textarea_element.getAttribute(correctClass).indexOf(&quot;usercheck_red_highlight&quot;) !== -1){
+		textarea_element.setAttribute(correctClass, &quot;usercheck_message_class usercheck_textual_input_class usercheck_red_highlight&quot;);
+		}
+		else
+			textarea_element.setAttribute(correctClass, &quot;usercheck_message_class usercheck_textual_input_class&quot;);
+		
+		textarea_element.onfocus = function() { };
+	}
+
+	this.sendMail  = function()
+	{
+		DEBUG.out(&quot;UserAction::sendMail&quot;);
+        	this.last_action = &apos;sent&apos;;
+		
+		if(!window.oUserAction.highlightInput())
+			//There was some user input missing - don&apos;t continue.
+			return;
+			
+		var reason = &quot;&quot;;
+		if(document.getElementById(&apos;UserCheck_Textual_Input&apos;) != null)
+		{
+			reason = document.getElementById(&apos;UserCheck_Textual_Input&apos;).value;
+			//If the reason box is not found, there is nothing to enforce.
+			if(reason === undefined)
+			{
+				reason = &quot;&quot;;
+			}
+		}
+
+
+		var sendMailCallback = new Callback();
+		sendMailCallback.methodReference 	= this.handleConfirmationData;
+		sendMailCallback.thisArgument		= this;
+		sendMailCallback.args.push(new Callback());
+		PORTAL_IS.AJAX_MGR.sendAsyncReq(	getURL(&quot;EmailSend&quot;),
+											&quot;mailId=&quot;+encodeURIComponent(UserCheck.DataObj.IID)+
+											&quot;&amp;justification=&quot;+encodeURIComponent(reason)+&quot;&amp;action=DLP-CHOICE-ACTION-SEND&quot;,
+											sendMailCallback,
+											null,
+											null,
+											&quot;Sending email failed.&quot;);
+
+
+	}
+	
+	this.discardMail = function()
+	{
+		DEBUG.out(&quot;UserAction::deleteMail&quot;);
+       		 this.last_action = &apos;delete&apos;;
+		
+		var sendMailCallback = new Callback();
+		sendMailCallback.methodReference 	= this.handleConfirmationData;
+		sendMailCallback.thisArgument		= this;
+		sendMailCallback.args.push(new Callback());
+		PORTAL_IS.AJAX_MGR.sendAsyncReq(	getURL(&quot;EmailSend&quot;),
+											&quot;mailId=&quot;+encodeURIComponent(UserCheck.DataObj.IID)+
+											&quot;&amp;justification=&quot;+encodeURIComponent(&quot;&quot;)+&quot;&amp;action=DLP-CHOICE-ACTION-DISCARD&quot;,
+											sendMailCallback,
+											null,
+											null,
+											&quot;Sending email failed.&quot;);
+
+
+	}
+	
+	this.handleConfirmationData = function(xhrStatus, xhrResponse, callback)
+	{
+		DEBUG.out(&quot;UserAction::handleConfirmationData &quot;);
+		if (callback == undefined)
+    	{
+    	    callback = new Callback();
+		}
+		if (xhrStatus != 200)
+		{
+			// TODO: Handle error.
+			DEBUG.out(&apos;Retreiving Single Incident Review Data failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			callback.call();
+			return;
+		}
+		var newViewJSONObj = JSON.parse(xhrResponse);
+		var message = newViewJSONObj.message;
+		var lastChanged = newViewJSONObj.lastChanged;
+		var succeeded = newViewJSONObj.succeeded;
+		if (lastChanged != -1 &amp;&amp; lastChanged != 0)
+		{
+            //message += &quot; &quot;;
+            //message += convertToGmt(lastChanged);
+            //this.emailData.date = convertToGmt(lastChanged);
+        }
+		//@@NA add test if this is from Thin Portal and only then redirect to about:blank
+        // window.location = &quot;about:blank&quot;;
+		if (succeeded)
+		{
+			var cookie = getCookie(&apos;UserCheck_UserID&apos;);
+			var requestData = {};
+			requestData.IID = &quot;-1&quot;;
+			requestData.UserID = cookie;
+			requestData.IsReasonExist = true;
+			requestData.Reason = &quot;&quot;;
+			requestData.UserOption = &quot;SEND&quot;;
+			if (newViewJSONObj.action == &quot;DLP-CHOICE-ACTION-DISCARD&quot;)
+			{
+				requestData.UserOption = &quot;DISCARD&quot;;
+			}
+				
+			if (newViewJSONObj.action === undefined || newViewJSONObj.action != &quot;DLP-CHOICE-ACTION-SEND&quot;)			
+			{
+				requestData.IsReasonExist = false;
+			}
+			else
+			{
+			if(document.getElementById(&apos;UserCheck_Textual_Input&apos;) != null)
+			{
+				var reason = document.getElementById(&apos;UserCheck_Textual_Input&apos;).value;
+
+				//If the reason box is not found, there is nothing to enforce.
+				if(reason === undefined)
+				{
+					reason = &quot;&quot;;
+					requestData.IsReasonExist = false;
+				}
+				else if(window.oUserAction.incidentObject.IsReasonEnforced === true &amp;&amp; (reason.length == 0 || reason.length &gt; 400))
+					return;
+					
+				requestData.Reason = reason;
+			}
+			else
+			{
+				requestData.IsReasonExist = false;
+			}
+			}
+			//Sometimes the cookie is not written correctly, so used global user.
+			if(requestData.UserID == null || requestData.UserID == &quot;&quot;)
+				requestData.UserID = g_userID;
+			requestData.IID = UserCheck.DataObj.IID;
+			
+			var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;data/GetUserCheckUserChoiceData&quot;);
+				
+			sendAsynchronousRequest(sAbsoluteURL,
+									flattenObject(requestData),
+									this.handleUserCheckChoiceData,
+									this,
+									[new Callback()]);
+		}
+						
+	}
+	
+	this.goToBlank = function()
+	{
+		window.location = &quot;about:blank&quot;;
+	}
+	
+	this.ApproveHttp = function()
+	{
+		this.sendMail();
+	}
+	
+	this.name_show = function(target)
+	{
+		document.getElementById(target).style.display = &apos;inline&apos;;
+	}
+	this.name_hide = function(target)
+	{
+		document.getElementById(target).style.display = &apos;none&apos;;
+	}
+	this.expand_link = function(target,data)
+	{
+		//simple code for chrome and FF
+		//document.getElementById(target).innerHTML = data;
+
+		//workaround for IE to do the same in 6 lines:(
+		var newdiv = document.createElement(&quot;div&quot;);
+		newdiv.innerHTML = data
+		newdiv.style.display = &apos;inline&apos;;
+		var container = document.getElementById(target);
+		container.removeChild( container.firstChild );
+		container.appendChild(newdiv);
+	}
+	this.createScrubbingLinks = function(attachments, isExtended)
+	{
+		var scrub_files_out = &quot;&lt;ul id= \&quot;te_links\&quot; style=\&quot;list-style-type: none;text-align:left;word-break: break-all;\&quot;&gt;&quot;;
+		var cutoff_len = 35;
+		for (var i = 0;i&lt;attachments.length;i++)
+		{
+			var filename = attachments[i].fileName;
+			var orig_filename = attachments[i].fileName;
+			var elipsis = &quot;&quot;;
+			var chars = filename.split(&quot;&quot;);
+			var elipsis_arg = &quot;elipsis_&quot;+  i;
+			var filename_arg = &quot;fname_&quot; + i;
+			if(chars.length &gt; cutoff_len){
+                                filename = attachments[i].fileName.split(&quot;&quot;,cutoff_len).join(&quot;&quot;);
+                        	elipsis = &quot;...&quot;;
+                        }
+			var elipsis_html = &quot;&lt;span id =\&quot;&quot; + elipsis_arg + &quot;\&quot; title=\&quot;Click to expand\&quot; &gt;&lt;a href=\&quot;#\&quot; style=\&quot;color:#333333;font-weight:bold\&quot; onclick= \&quot;window.oUserAction.name_hide(&apos;&quot; + elipsis_arg + &quot;&apos;);window.oUserAction.expand_link(&apos;&quot; + filename_arg +&quot;&apos;,&apos;&quot; + orig_filename + &quot;&apos;);\&quot;&gt;&quot; + elipsis + &quot;&lt;/a&gt;&lt;/span&gt;&quot;;
+			if (attachments[i].fileStatus == &quot;FILE-STATUS-APPROVED-BY-TE&quot; || attachments[i].fileStatus == &quot;FILE-STATUS-AVAILABLE&quot; || attachments[i].fileStatus == &quot;FILE-STATUS-AVAILABLE-SUSPICIOUS&quot;)
+			{
+				var image = &quot;images/confirmation.png&quot;;
+				var comment = &quot;&quot;;
+				var toolTip = &quot;Click to download&quot;;
+				var removedParts = attachments[i].removedParts;
+				if (isExtended == true)
+				{
+					if(removedParts != &quot;&quot;)
+					{
+						removedParts = removedParts.replace(/\n/g,&quot;, &quot;);
+						comment = &quot; contains &quot; + removedParts;
+					}
+					else
+					{
+						 comment = (&quot;CP_SCRUB_RESULT_SUCCESS&quot; != attachments[i].scrubResult) ? PORTAL_IS.L10N.L10N_Obj.getStr(attachments[i].scrubResult) : &quot;&quot;;
+					}
+				}
+				scrub_files_out += &quot;&lt;li title=\&quot;&quot; + toolTip + &quot;\&quot;&gt;&lt;img style=\&quot;padding-bottom: 1px;\&quot; src=\&quot;&quot; + image + &quot;\&quot; width=\&quot;20\&quot; height=\&quot;20\&quot;/&gt;&amp;nbsp;&quot; + &quot;&lt;a href=\&quot;ScrubGetFile?IID=&quot;+UserCheck.DataObj.IID+&quot;&amp;fileID=&quot;+attachments[i].fileId+&quot;\&quot; TARGET=\&quot;_blank\&quot;&gt;&lt;span id =\&quot;&quot; + filename_arg + &quot;\&quot; style=\&quot;font-weight:bold;color:#1b81ff\&quot;&gt;&quot; + filename + &quot;&lt;/span&gt;&lt;/a&gt;&quot; + elipsis_html + &quot;&lt;span style=\&quot;color:#333333;font-weight:bold\&quot;&gt;&quot; + comment + &quot;&lt;/span&gt;&lt;/li&gt;&quot;
+			}
+			else
+			{
+				var description = &quot;&quot;;
+				var img = &quot;&quot;;
+				var toolTip = &quot;&quot;;
+                g_BlockSendMail = true;
+				if (attachments[i].fileStatus == &quot;FILE-STATUS-WAITING-FOR-TE&quot;)
+				{
+					g_refreshFiles = true;
+					description = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_FILE_STATUS_WAITING_FOR_TE_DESC&quot;);
+					img = &quot;img/loader.gif&quot;;
+					toolTip = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_FILE_STATUS_WAITING_FOR_TE&quot;);
+				}
+				else if (attachments[i].fileStatus == &quot;FILE-STATUS-BLOCKED-BY-TE&quot;)
+				{
+					description = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_FILE_STATUS_BLOCKED_BY_TE_DESC&quot;);
+					img = &quot;img/block.png&quot;;
+					toolTip = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_FILE_STATUS_BLOCKED_BY_TE&quot;);
+				}
+				else if (attachments[i].fileStatus == &quot;FILE-STATUS-BLOCKED-BY-POLICY&quot;)
+				{
+					description = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_FILE_STATUS_BLOCKED_BY_POLICY_DESC&quot;);
+					img = &quot;img/block.png&quot;;
+					toolTip = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_FILE_STATUS_BLOCKED_BY_POLICY&quot;);
+				}
+				scrub_files_out += &quot;&lt;li title=\&quot;&quot; + toolTip + &quot;\&quot;&gt;&lt;img src=\&quot;&quot; + img + &quot;\&quot; width=\&quot;20\&quot; height=\&quot;20\&quot;/&gt;&amp;nbsp;&lt;span id =\&quot;&quot; + filename_arg + &quot;\&quot;&gt;&quot; + filename + &quot;&lt;/span&gt;&quot; + elipsis_html + &quot; &lt;span style=\&quot;color:LightSteelBlue\&quot;&gt;(&quot; + description + &quot;)&lt;/span&gt;&lt;/li&gt;&quot;
+			}
+		}
+		scrub_files_out += &quot;&lt;/ul&gt;&lt;div id=\&quot;refresh_timer_div\&quot;&gt;&lt;/div&gt;&quot;;
+		return scrub_files_out;
+	}
+
+    this.isEmailAddressValid = function(inputvalue)
+    {	
+        var pattern=/^[^@;\s&lt;&gt;]+@[^@;\s&lt;&gt;]+\.[^@;\s&lt;&gt;]+$/;
+        if(pattern.test(inputvalue))
+        {         
+            return true;   
+        }
+        else
+        {   
+            return false; 
+        }
+    }
+    
+    this.highlightScrubInput = function()
+    {
+        var correctClass = window.oUserAction.getCorrectClass();
+        var textarea_ready = false;
+        textarea_element = document.getElementById(&apos;send_original_email_textarea&apos;);
+        var errorElement = document.getElementById(&apos;scrub_error_div&apos;);
+        var isValidEmail = false;
+        //If the textarea is an incorrect element or length is correct, check passes.
+        if(textarea_element.value != null)
+        { 
+            
+            if (textarea_element.value.length &gt; 0 &amp;&amp; textarea_element.value.length &lt;= 128 &amp;&amp; textarea_element.value != PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_EMAIL_EXAMPLE&quot;))
+            {   
+                    
+                    isValidEmail = window.oUserAction.isEmailAddressValid(textarea_element.value);
+                    error_string = isValidEmail ? &quot;&quot; : PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_EMAIL_INVALID&quot;);
+                    if(errorElement != null)
+                    {
+                        errorElement.innerHTML = isValidEmail ? &quot;&quot; : &quot;&lt;br/&gt;&lt;span style=&apos;color: #FF0000; display=inline&apos;&gt;* &quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_INVALID_EMAIL&quot;) + &quot;&lt;/span&gt;&quot;;
+                    }
+                    
+                    textarea_ready = isValidEmail ? true : false;
+            }
+            else
+            {
+                    textarea_ready = false;
+                    if(errorElement != null)
+                    {
+                        errorElement.innerHTML = &quot;&lt;br/&gt;&lt;span style=&apos;color: #FF0000; display=inline&apos;&gt;* &quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;REQUIRED_FIELDS&quot;) + &quot;&lt;/span&gt;&quot;;
+                    }
+                    
+            }
+            textarea_element.setAttribute(correctClass, (textarea_ready ? &quot;usercheck_red_no_highlight&quot; : &quot;usercheck_red_highlight &quot; ));
+			if(!textarea_ready)
+			{
+				if(textarea_element.value === &quot;&quot;)
+				{   
+                    textarea_element.value = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_EMAIL_EXAMPLE&quot;);
+                    textarea_element.setAttribute(correctClass, &quot;usercheck_red_highlight&quot;);
+				}
+                if(textarea_element.value === PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_EMAIL_EXAMPLE&quot;))
+                {
+                    textarea_element.onfocus = function() { window.oUserAction.clearScrubRequiredInput(); };
+                }
+			}
+        }
+        
+        var scrub_send_email_result = document.getElementById(&apos;scrub_send_email_result_div&apos;);
+        if(scrub_send_email_result != null)
+        {
+            scrub_send_email_result.innerHTML = &quot;&quot;;
+        }
+        
+        return textarea_ready;
+    }
+    
+    this.clearScrubRequiredInput = function()
+    {
+            textarea_element = document.getElementById(&apos;send_original_email_textarea&apos;);
+            
+            textarea_element.value = &quot;&quot;;
+            var correctClass = window.oUserAction.getCorrectClass();
+            
+            if(textarea_element.getAttribute(correctClass) &amp;&amp; textarea_element.getAttribute(correctClass).indexOf(&quot;usercheck_red_highlight&quot;) !== -1)
+                textarea_element.setAttribute(correctClass, &quot;usercheck_red_highlight&quot;);
+            else
+                textarea_element.setAttribute(correctClass, &quot;&quot;);
+            
+            textarea_element.onfocus = function() { };
+    }
+        
+    this.ScrubSendOriginalMail = function(IID)
+    {
+        receipientarea_element = document.getElementById(&apos;send_original_email_textarea&apos;);
+        if(receipientarea_element != null)
+        {
+            if(document.getElementById(&apos;send_original_email_textarea&apos;).value !== undefined)
+                //Unfocus the text-area.
+                document.getElementById(&apos;send_original_email_textarea&apos;).blur();
+            if(!window.oUserAction.highlightScrubInput())
+                //There was some user input missing - don&apos;t continue.
+                return;
+            textarea_element = document.getElementById(&apos;send_original_email_textarea&apos;);
+            
+            var recipient = textarea_element.value;
+            setCookie(&apos;Scrub_UserEmail&apos;, recipient, 31556926);
+            
+            var requestData = {};
+			requestData.IID = IID;
+			requestData.RECIPIENT = recipient;
+            
+            var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&apos;data/SendScrubOrigMail&apos;);
+				
+			sendAsynchronousRequest(sAbsoluteURL,
+									flattenObject(requestData),
+									this.handleScrubSendEmailResponse,
+									this,
+									[new Callback()]);
+            
+        }
+    }
+    
+    this.handleScrubSendEmailResponse = function(xhrStatus, xhrResponse, callback)
+    {
+        if (callback == undefined)
+    	{
+    	    callback = new Callback();
+		}
+		
+		if (xhrStatus != 200)
+		{
+			DEBUG.out(&apos;Scrub Sending Email failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			callback.call();
+			return;
+		}
+        
+        this.SendingEmailStatus = JSON.parse(xhrResponse);
+        this.result = this.SendingEmailStatus.mailActionStatus;
+        
+        var scrub_send_email_result = document.getElementById(&apos;scrub_send_email_result_div&apos;);
+        if(scrub_send_email_result == null)
+        {
+           return;  
+        }
+        
+        if( &quot;MAIL-SENT-SUCCESSFULLY&quot; == this.result)
+        {
+            scrub_send_email_result.innerHTML = &quot;&lt;br/&gt;&lt;span style=&apos;color: #FF5000;&apos;&gt;&quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_EMAIL_SUCCESS&quot;) + &quot;&lt;/span&gt;&quot;;
+        }
+        else
+        {
+            setCookie(&apos;Scrub_UserEmail&apos;,PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_EMAIL_EXAMPLE&quot;) , 30);
+            scrub_send_email_result.innerHTML = &quot;&lt;br/&gt;&lt;span style=&apos;color: #FF0000;&apos;&gt;&quot; + PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_EMAIL_ERROR&quot;) + &quot;&lt;/span&gt;&quot;;
+        }
+        
+        
+    }
+    
+    this.createScrubbingSendOrigMailOption = function()
+	{
+        var send_orig_option = &quot;&quot;;
+        var cookie = getCookie(&apos;Scrub_UserEmail&apos;);
+        var image = &quot;images/confirmation.png&quot;;
+        var toolTip = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_ORIGINAL_EMAIL&quot;);
+        
+        if(g_BlockSendMail == true)
+        {
+            image = &quot;img/block.png&quot;;
+            toolTip = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_MAIL_BLOCKED_BY_POLICY&quot;);
+            if(g_refreshFiles == true)
+            {
+                image = &quot;img/loader.gif&quot;;
+		toolTip = PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_FILE_STATUS_WAITING_FOR_TE&quot;);
+            }
+        }
+        
+		var defaultStr = cookie != null ? cookie : PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_EMAIL_EXAMPLE&quot;);
+        var string_element = &quot;&lt;span&quot;;
+        string_element += (g_BlockSendMail == true) ? &quot; style=\&quot;color:LightSteelBlue\&quot; &gt;&quot; : &quot;&gt;&quot;;
+        string_element +=  PORTAL_IS.L10N.L10N_Obj.getStr(&quot;CP_SCRUB_SEND_MAIL_STRING&quot;);
+        string_element +=  &quot; &amp;nbsp;&amp;nbsp;&quot;;
+        
+        var textarea_element = &quot;&lt;textarea id=\&quot;send_original_email_textarea\&quot; class =\&quot;usercheck_textual_input_class_required\&quot; style=\&quot;width: 180px; height: 20px; font-size: 14px; vertical-align: top;\&quot; xcontenteditable=\&quot;true\&quot; unselectable=\&quot;off\&quot;&quot;;
+        textarea_element += (g_BlockSendMail == true) ? &quot;disabled&quot; : &quot;&quot;;
+        textarea_element += &quot;&gt;&quot; +defaultStr + &quot;&lt;/textarea&gt;&amp;nbsp;&amp;nbsp;&quot;;
+        
+        var error_element = &quot;&lt;span&gt;&lt;span id=\&quot;scrub_error_div\&quot; unselectable=\&quot;on\&quot;&gt;&lt;br&gt;&lt;span style=\&quot;color: #FF0000;\&quot;&gt;&lt;/span&gt;&lt;/span&gt;&quot;;
+        var result_element = &quot;&lt;span id=\&quot;scrub_send_email_result_div\&quot; unselectable=\&quot;on\&quot;&gt;&lt;br&gt;&lt;/span&gt;&quot;;
+        
+        var send_button_element = &quot;&lt;a id=\&quot;send_original_email_button\&quot; title=\&quot;&quot; + toolTip + &quot;\&quot; class=\&quot;SendButtonNormal\&quot;  onclick=\&quot;window.oUserAction.ScrubSendOriginalMail(&apos;&quot; + UserCheck.DataObj.IID + &quot;&apos;)\&quot;  unselectable=\&quot;on\&quot;&gt;&lt;span id=\&quot;send_original_email_span\&quot; unselectable=\&quot;off\&quot;\&gt;&lt;/span&gt;&lt;/a&gt;&amp;nbsp&amp;nbsp&lt;/span&gt;&quot;;
+
+        send_orig_option = &quot;&lt;div id=\&quot;send_original_email_div\&quot;&gt;&quot;;
+        send_orig_option += &quot;&lt;ul id=\&quot;send_original_email_ul\&quot; style=\&quot;list-style-type: none;padding: 0;\&quot;&gt;&quot;;
+        send_orig_option += &quot;&lt;li&gt;&lt;img src=\&quot;&quot; + image + &quot;\&quot; width=\&quot;20\&quot; height=\&quot;20\&quot;/&gt;&amp;nbsp;&amp;nbsp;&quot;;
+        send_orig_option += string_element;
+        send_orig_option += textarea_element;
+        
+        send_orig_option += (g_BlockSendMail == false) ? send_button_element : &quot;&quot;;
+        send_orig_option += error_element;
+        send_orig_option += result_element;
+        
+        send_orig_option += &quot;&lt;/li&gt;&quot;;
+        send_orig_option += &quot;&lt;/ul&gt;&quot;;
+        send_orig_option += &quot;&lt;/div&gt;&quot;;
+        return send_orig_option;
+    }
+	
+	this.handleScrubbingFiles = function(xhrStatus, xhrResponse, callback)
+	{
+		if (callback == undefined)
+    	{
+    	    callback = new Callback();
+		}
+		
+		if (xhrStatus != 200)
+		{
+			DEBUG.out(&apos;Retreiving UserCheck Incident Data failed. (&apos;+xhrStatus+&apos;)&apos;, DEBUG.ERROR);
+			callback.call();
+			return;
+		}
+		
+		this.scrubbingResponse = JSON.parse(xhrResponse);
+		
+		var attachments = [];			
+		if( Object.prototype.toString.call( this.scrubbingResponse.data.attachments ) != &apos;[object Array]&apos; ) {
+			attachments[0] = this.scrubbingResponse.data.attachments;
+		}
+		else
+		{
+			attachments = this.scrubbingResponse.data.attachments;
+		}
+		
+		g_refreshFiles = false;
+		g_BlockSendMail = false;
+		var scrub_links_simple = document.getElementById(&apos;links_simple&apos;);		
+		if (scrub_links_simple != null)
+		{
+			if (scrub_links_simple.hasChildNodes())
+				scrub_links_simple.removeChild(scrub_links_simple.childNodes[0]);
+			var tmp = document.createElement(&quot;div&quot;);
+			tmp.innerHTML = window.oUserAction.createScrubbingLinks(attachments, false);
+			scrub_links_simple.appendChild(tmp);
+		}
+		
+		var scrub_links_extended = document.getElementById(&apos;links_extended&apos;);
+		if (scrub_links_extended != null)
+		{
+			if (scrub_links_extended.hasChildNodes())
+				scrub_links_extended.removeChild(scrub_links_extended.childNodes[0]);
+			var tmp = document.createElement(&quot;div&quot;);
+			tmp.innerHTML = window.oUserAction.createScrubbingLinks(attachments, true);
+			scrub_links_extended.appendChild(tmp);
+		}
+		document.getElementById(&apos;usercheck_content_table&apos;).style.width = &apos;auto&apos;;
+		
+        var scrub_wait_massage = document.getElementById(&apos;scrub_wait_message&apos;);
+		if (scrub_wait_massage != null)
+		{	
+			scrub_wait_massage.style.display = &apos;none&apos;;
+		}
+
+        var scrub_send_orig_mail = document.getElementById(&apos;scrub_send_orig_mail&apos;);		
+		if (scrub_send_orig_mail != null)
+		{
+			if (scrub_send_orig_mail.hasChildNodes())
+				scrub_send_orig_mail.removeChild(scrub_send_orig_mail.childNodes[0]);
+			var tmp = document.createElement(&quot;div&quot;);
+			tmp.innerHTML = window.oUserAction.createScrubbingSendOrigMailOption();
+			scrub_send_orig_mail.appendChild(tmp);
+            var scrub_orig_eml_textarea = document.getElementById(&apos;send_original_email_textarea&apos;);
+            if(scrub_orig_eml_textarea != null)
+            {
+                scrub_orig_eml_textarea.onfocus = function() { window.oUserAction.clearScrubRequiredInput(); };
+            }
+            
+            if(g_BlockSendMail == true)
+            {
+                setButtonMode(false,&apos;send_original_email_button&apos;)
+            }
+		}
+		
+		if (g_refreshFiles)
+		{
+			UserCheck.tools.oTimeoutManager.startTimeoutTimer(30, window.oUserAction.refreshScrubbingFiles);
+		}
+		callback.call();
+	}
+	
+	this.refreshScrubbingFiles = function()
+	{
+		var requestData = 	{
+				IID: &quot;-1&quot;
+			};
+		requestData.IID = UserCheck.DataObj.IID;
+		var sAbsoluteURL = PORTAL_IS.TOOLS.getURL(&quot;data/GetScrubFiles&quot;);
+		sendAsynchronousRequest(sAbsoluteURL,
+				flattenObject(requestData),
+				window.oUserAction.handleScrubbingFiles,
+				this,
+				[new Callback()]);
+	}
+	
+    this.showOrHideRemovedPartsfromFiles = function(FileIndex)
+    {       
+        var infoimg_element = document.getElementById(&apos;infoimg_&apos; + FileIndex);
+        var removed_parts_element = document.getElementById(&apos;removed_parts_&apos; + FileIndex);
+        
+        if ( infoimg_element != null &amp;&amp; removed_parts_element != null )
+        {           
+            if( removed_parts_element.style.display === &quot;none&quot; )
+            {
+                infoimg_element.style.display = &apos;none&apos;;
+                removed_parts_element.style.display = &apos;inline&apos;;
+            }
+            else 
+            {
+                infoimg_element.style.display = &quot;inline&quot;;
+                removed_parts_element.style.display = &apos;none&apos;;
+            }
+        }
+    }
+	
+} //END: window.UserAction = function()
+
+window.oUserAction = new UserAction();
+oUserAction.init();
+	
+    
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:212)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at Basic3.AddAndDelete(Basic3.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\YKAREDDY\AppData\Local\Temp\testng-eclipse-1904343710\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Basic3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddAndDelete')
+data.setCell(0, 2, 'Basic3')
+data.setCell(0, 3, 2764);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Basic3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddAndDelete</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
